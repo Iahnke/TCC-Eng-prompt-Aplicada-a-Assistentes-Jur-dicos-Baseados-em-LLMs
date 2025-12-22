@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Jurídico - Comparador IA</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+
+    <aside class="sidebar">
+        <div class="panel-section">
+            <div class="panel-title">💰 Custos (Output)</div>
+            
+            <div class="cost-box">
+                <div class="cost-header" style="color: var(--gpt-color);">GPT-4o-mini</div>
+                <div class="cost-row">
+                    <span>Run:</span>
+                    <span id="display-gpt-run" class="value">US$ 0.00000</span>
+                </div>
+                <div class="cost-row">
+                    <span>Total:</span>
+                    <span id="display-gpt-total" class="value">US$ 0.00000</span>
+                </div>
+            </div>
+
+            <div class="cost-box">
+                <div class="cost-header" style="color: var(--gemini-color);">Gemini-2.5-Flash</div>
+                <div class="cost-row">
+                    <span>Run:</span>
+                    <span id="display-gem-run" class="value">US$ 0.00000</span>
+                </div>
+                <div class="cost-row">
+                    <span>Total:</span>
+                    <span id="display-gem-total" class="value">US$ 0.00000</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="panel-section">
+            <div class="panel-title">🔢 Tokens Acumulados</div>
+            <div class="token-row">
+                <span>GPT</span>
+                <span id="gpt_tokens_cell" class="highlight">0</span>
+            </div>
+            <div class="token-row">
+                <span>Gemini</span>
+                <span id="gem_tokens_cell" class="highlight">0</span>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="panel-section" style="flex: 1; overflow-y: auto;">
+            <div class="panel-title">Histórico de Runs</div>
+            <div class="runs-header">
+                <span>#</span>
+                <span>GPT</span>
+                <span>Gem</span>
+            </div>
+            <div id="runs_body" class="runs-list">
+                </div>
+        </div>
+
+        <button class="btn-save" onclick="salvarConversaServidor()">
+            💾 Salvar JSON
+        </button>
+    </aside>
+
+    <main class="main-content">
+        
+        <header class="top-bar">
+            <div class="logo-area">
+                <div class="logo-circle">⚖️</div>
+                <div>
+                    <h1>Assistente Jurídico</h1>
+                    <p>Comparação Real-Time: GPT-4o-mini vs Gemini-2.5-Flash</p>
+                </div>
+            </div>
+        </header>
+
+        <div id="messages" class="chat-container">
+            </div>
+
+        <div class="input-container">
+            <div class="input-wrapper">
+                <input type="text" id="mensagem" placeholder="Digite o problema jurídico..." autocomplete="off">
+                <button id="enviarBtn" onclick="enviarMensagem()">Enviar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

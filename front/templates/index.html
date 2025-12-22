@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Assistente Jurídico Futurista</title>
+
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <!-- Socket.IO -->
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Painel lateral -->
+  <aside class="token-panel">
+
+    <div class="panel-section">
+      <div class="panel-title">Tokens Totais</div>
+
+      <div class="panel-line">
+        <span>GPT</span>
+        <span id="gpt_tokens_cell">0</span>
+      </div>
+
+      <div class="panel-line">
+        <span>Gemini</span>
+        <span id="gem_tokens_cell">0</span>
+      </div>
+    </div>
+
+    <div class="panel-divider"></div>
+
+    <div class="panel-section">
+      <div class="panel-title">Runs</div>
+
+      <div class="panel-header">
+        <span>#</span>
+        <span>GPT</span>
+        <span>Gemini</span>
+      </div>
+
+      <div id="runs_body" class="runs-list"></div>
+
+    <div class="panel-divider"></div>
+
+  <button onclick="salvarConversaServidor()">
+    💾 Salvar conversa (JSON)
+  </button>
+
+
+    </div>
+
+  </aside>
+
+  <!-- Wrapper principal -->
+  <div class="main-wrapper">
+
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-icon"></div>
+        <div class="brand-text">
+          <h1>Assistente Jurídico</h1>
+          <p>Comparação em tempo real entre modelos GPT e Gemini</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Chat -->
+    <div class="chat-area" id="messages"></div>
+
+    <!-- Typing -->
+    <div id="typing-indicator" class="typing hidden">
+      <div class="dots"><span></span><span></span><span></span></div>
+      <span class="typing-text">As IAs estão analisando sua mensagem...</span>
+    </div>
+
+    <!-- Input -->
+    <div class="input-area">
+      <input id="mensagem" type="text" placeholder="Digite sua mensagem jurídica...">
+      <button id="enviarBtn">Enviar</button>
+    </div>
+
+  </div>
+
+  <!-- JS -->
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
