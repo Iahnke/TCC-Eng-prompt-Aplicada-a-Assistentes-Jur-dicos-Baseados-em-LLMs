@@ -1,0 +1,40 @@
+{
+  "conversation": [
+    {
+      "timestamp": "2026-01-02T17:13:56.177562",
+      "user_input": "oi quero processar a latam, tenho tds os docs e foram 10k do extravio d e bagagen, do meu not e das minhas ropas, tenho tdas as notas e ja flaei com eles oficialmente e procon, mas ainda sem solucao e ja faaz 1 mes",
+      "gpt_response": "Para organizar seu caso, preciso saber: Qual foi o prazo informado pela Latam para resolver seu problema? Você guardou os comprovantes das reclamações e protocolos obtidos? Além disso, já recebeu algum retorno formal da Latam ou Procon sobre sua reclamação? Você tem registros, como e-mails ou protocolos, que comprovem esses contatos?",
+      "gemini_response": "Olá! Sinto muito por essa situação, imagino o transtorno que deve estar sendo. É realmente frustrante quando algo assim acontece e a solução não aparece.\n\nPara que eu possa registrar todos os fatos corretamente, poderia me informar a data exata e o trecho do voo (origem e destino) em que ocorreu o extravio? E você tem os números de protocolo das reclamações que fez à Latam e ao Procon?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "atendimento ao cliente",
+      "tokens": {
+        "gpt": 70,
+        "gemini": 88
+      }
+    },
+    {
+      "timestamp": "2026-01-02T17:16:45.966143",
+      "user_input": "foi de 1 semana e ja faz mais de mes e nda, SP para POA foi dia 2 de dezembro, tenho td comprovantes emails td",
+      "gpt_response": "Obrigado pelas informações. Você chegou a registrar boletim de ocorrência sobre o extravio? Além disso, a Latam ofereceu alguma compensação ou justificativa formal? Você está buscando apenas o ressarcimento dos 10 mil reais ou também pretende incluir pedido de danos morais?",
+      "gemini_response": "Obrigado por detalhar as datas e o trecho do voo! É importante saber que você tem todos os comprovantes e e-mails. Para seguirmos, você chegou a registrar um boletim de ocorrência sobre o extravio da bagagem? E além do ressarcimento dos 10 mil reais, você também gostaria de incluir um pedido de danos morais?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "consulta",
+      "tokens": {
+        "gpt": 56,
+        "gemini": 71
+      }
+    },
+    {
+      "timestamp": "2026-01-02T17:18:59.707169",
+      "user_input": "sim td mas nada resolve, quero processar, quero danos morais, o max permitido por lei",
+      "gpt_response": "Você mencionou que deseja incluir danos morais no processo, buscando o máximo permitido por lei. Além do valor de R$10 mil do extravio, qual seria sua expectativa para o valor dos danos morais? Já tentou alguma mediação ou proposta de acordo com a Latam?",
+      "gemini_response": "Entendi perfeitamente! Com base nas informações que você me forneceu – o extravio da bagagem no voo de SP para POA em 02 de dezembro, o valor de R$10 mil em itens, os comprovantes, e-mails e protocolos de contato com a Latam e o Procon, e o seu desejo de processar buscando o ressarcimento e danos morais no máximo permitido por lei – seu caso parece estar qualificado para seguirmos. Para darmos o próximo passo, você gostaria de iniciar o processo de formalização da sua demanda?\n\n🚀 [SISTEMA]: Cliente QUALIFICADO com sucesso! Um advogado especialista irá analisar seu caso em detalhes.",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Qualificado",
+      "tokens": {
+        "gpt": 57,
+        "gemini": 138
+      }
+    }
+  ]
+}

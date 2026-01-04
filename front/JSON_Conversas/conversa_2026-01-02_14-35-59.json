@@ -1,0 +1,136 @@
+{
+  "conversation": [
+    {
+      "timestamp": "2026-01-02T14:04:58.941160",
+      "user_input": "ola",
+      "gpt_response": "Olá! Gostaria de entender melhor seu caso. Quando e onde os fatos ocorreram? E há quanto tempo você tenta resolver essa situação?",
+      "gemini_response": "Olá! Para que eu possa te ajudar, preciso entender melhor o seu caso. Você poderia me contar qual é o problema principal que você está enfrentando e quais são as partes envolvidas?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Conversando",
+      "tokens": {
+        "gpt": 28,
+        "gemini": 38
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:05:16.011546",
+      "user_input": "reset",
+      "gpt_response": "Olá! Sou a Juliana, sua assistente jurídica virtual. Em que posso ajudar você hoje? Você tem alguma questão jurídica que gostaria de conversar?",
+      "gemini_response": "Olá! Sou a Juliana, sua assistente jurídica virtual. Em que posso ajudar você hoje? Você tem alguma questão jurídica que gostaria de conversar?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Conversando",
+      "tokens": {
+        "gpt": 30,
+        "gemini": 30
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:05:37.009528",
+      "user_input": "ola quero processar a latam",
+      "gpt_response": "Entendi que deseja processar a LATAM. Poderia me informar qual foi o problema ou situação que ocorreu com a empresa? E quando isso aconteceu? Você busca reembolso, indenização ou outra solução? Já tentou contato com a empresa?",
+      "gemini_response": "Olá! Para que eu possa entender melhor o seu caso contra a LATAM, por favor, me conte qual foi o problema que você enfrentou. Você busca reembolso, indenização ou alguma outra solução? E você já tentou resolver isso diretamente com a empresa?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Conversando",
+      "tokens": {
+        "gpt": 49,
+        "gemini": 53
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:07:01.138332",
+      "user_input": "quando eu tava voltando de SP para POA, extraviaram minha bagagem, tinha 10k em notebook mais uns 2k em roupa, poderia me ajudar, tenho tds os docs, queria ou achar a mala ou o valor total de td",
+      "gpt_response": "Obrigado por compartilhar essas informações. Para entender melhor, quando exatamente aconteceu esse voo de SP para POA? Você já registrou formalmente o extravio da bagagem junto à LATAM ou na polícia? A empresa ofereceu alguma resposta ou propôs alguma solução até agora?",
+      "gemini_response": "Entendi que sua bagagem foi extraviada no voo de SP para POA, contendo um notebook de R$10.000 e roupas de R$2.000, e que você busca a mala ou o valor total. Você mencionou que tem todos os documentos. Poderia me dizer qual a data exata do voo e do extravio? E você já registrou formalmente o extravio junto à LATAM?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Coletando Fatos",
+      "tokens": {
+        "gpt": 55,
+        "gemini": 87
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:24:43.490830",
+      "user_input": "mes passado, n me foi oferecido",
+      "gpt_response": "Você já fez registros formais do extravio, como na Anac ou Procon, e tem documentos que comprovem o conteúdo da mala. Também tem os documentos de compra dos itens e algum comprovante da LATAM? Isso nos ajuda a entender melhor a situação para orientar o próximo passo. Pode me confirmar?",
+      "gemini_response": "Entendi que o extravio foi no mês passado e não houve oferta da LATAM. Você já fez alguma reclamação formal junto à LATAM ou em órgãos como o Procon ou a ANAC? E você possui algum comprovante de despacho da bagagem ou notas fiscais dos itens que estavam dentro dela?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Coletando Fatos",
+      "tokens": {
+        "gpt": 63,
+        "gemini": 62
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:25:35.467011",
+      "user_input": "ja realizei um bo, possuo os comprovantes",
+      "gpt_response": "Ótimo saber que você registrou um boletim de ocorrência e possui os comprovantes. Você chegou a notificar formalmente a LATAM após o BO? Está buscando a restituição integral dos valores ou aberto a alguma negociação? Como imagina o desfecho ideal para este caso?",
+      "gemini_response": "Que bom que você já fez o boletim de ocorrência e tem os comprovantes. Você chegou a notificar a LATAM oficialmente sobre o ocorrido? Está buscando a restituição integral do valor dos itens perdidos ou está aberto a uma negociação?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Coletando Fatos",
+      "tokens": {
+        "gpt": 59,
+        "gemini": 49
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:26:57.548019",
+      "user_input": "notifiquei, busco restituicao e sem negffociar",
+      "gpt_response": "Você notificou a LATAM e busca restituição integral sem negociação. A LATAM já respondeu formalmente a sua notificação? Você possui documentos que comprovem a notificação e o conteúdo da mala, como notas fiscais, fotos ou vídeos? Isso nos ajudará a entender melhor e a orientar o próximo passo.",
+      "gemini_response": "Entendido, você notificou a LATAM e busca a restituição integral sem negociação. Para prosseguir, você possui as notas fiscais do notebook e das roupas, ou algum outro comprovante de valor desses itens? E tem algum registro da resposta da LATAM à sua notificação, ou a ausência dela?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Conversando",
+      "tokens": {
+        "gpt": 63,
+        "gemini": 62
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:28:16.651045",
+      "user_input": "n respondeu e me ignotou por mais de mes, tenhop tds os comprovantes",
+      "gpt_response": "Você possui todos os comprovantes, incluindo boletim de ocorrência, notas fiscais e tentativas de contato, e a LATAM te ignorou por mais de um mês. Já tentou resolver a situação por meio do Procon ou da Anac? Poderia detalhar quais documentos específicos você tem para comprovar essa situação?",
+      "gemini_response": "Entendido, você tem todos os comprovantes e a LATAM não respondeu por mais de um mês. Para que eu possa entender melhor, você já fez alguma reclamação formal em órgãos como o Procon ou a ANAC? E quais são os tipos de comprovantes que você possui, além do boletim de ocorrência e das notas fiscais?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Conversando",
+      "tokens": {
+        "gpt": 64,
+        "gemini": 69
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:28:48.122087",
+      "user_input": "sim td, ja falei com o procodn, mas sem resposta ainda",
+      "gpt_response": "Você informo que já falou com o Procon, mas ainda não obteve resposta. Gostaria de saber se já registrou reclamação na Anac ou em outras plataformas e se pretende entrar com uma ação judicial caso não tenha resposta satisfatória. Você pode detalhar qual seria o próximo passo que deseja tomar?",
+      "gemini_response": "Entendi que você já acionou o Procon e a Anac, mas ainda não teve retorno. Diante disso, você está considerando entrar com uma ação judicial para buscar a restituição integral dos seus bens, já que as vias administrativas não surtiram efeito?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Conversando",
+      "tokens": {
+        "gpt": 63,
+        "gemini": 53
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:29:58.600956",
+      "user_input": "ja, quero processar, quero o valor do not mais das reoupas ou a mala com minhas coisas, se possivel um dano moral tb",
+      "gpt_response": "Você quer processar para receber o valor do notebook, das roupas ou a mala, além de possível dano moral. Poderia informar o valor aproximado dos itens e descrever como esse problema afetou seu dia a dia para fundamentar o dano moral? Além disso, você já tem toda a documentação organizada para essa ação?",
+      "gemini_response": "Entendido, você quer processar para reaver o valor do notebook, das roupas ou a mala, e também buscar danos morais. Para que eu possa registrar tudo corretamente, qual seria o valor estimado desses itens e como essa situação afetou sua vida pessoal ou profissional para o pedido de dano moral?",
+      "gpt_classificacao": "Conversando",
+      "gem_classificacao": "Conversando",
+      "tokens": {
+        "gpt": 65,
+        "gemini": 62
+      }
+    },
+    {
+      "timestamp": "2026-01-02T14:31:12.918782",
+      "user_input": "ja, quero processar, quero o valor do not mais das reoupas ou a mala com minhas coisas, se possivel um dano moral tb",
+      "gpt_response": "Você deseja processar para receber o valor do notebook, das roupas ou a mala, além de possível dano moral. Já possui os valores aproximados desses bens e pode descrever como essa situação impactou seu dia a dia para fundamentar o pedido de dano moral? Com todas essas informações, seu caso está bem qualificado para seguir adiante. Gostaria de compartilhar mais detalhes ou tem mais alguma dúvida?\n\n🚀 [SISTEMA]: Cliente QUALIFICADO com sucesso! Um advogado especialista irá analisar seu caso em detalhes.",
+      "gemini_response": "Entendido, você quer processar para reaver o valor do notebook, das roupas ou da mala com seus pertences, além de possível dano moral. Para que possamos dar andamento, você já tem os valores exatos desses itens? E consegue descrever como essa situação impactou seu dia a dia para fundamentar o dano moral?\n\n🚀 [SISTEMA]: Cliente QUALIFICADO com sucesso! Um advogado especialista irá analisar seu caso em detalhes.",
+      "gpt_classificacao": "Qualificado",
+      "gem_classificacao": "Qualificado",
+      "tokens": {
+        "gpt": 105,
+        "gemini": 92
+      }
+    }
+  ]
+}

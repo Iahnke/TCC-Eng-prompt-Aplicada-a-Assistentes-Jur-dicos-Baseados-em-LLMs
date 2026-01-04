@@ -2,7 +2,7 @@
 # 🔧 CORREÇÃO DE CONCORRÊNCIA
 # ===============================
 import eventlet
-eventlet.monkey_patch() # 🔥 ESSENCIAL PARA O SOCKETIO NÃO TRAVAR
+eventlet.monkey_patch() 
 
 from flask import Flask, render_template, request, jsonify
 from flask_socketio import SocketIO
@@ -17,54 +17,68 @@ from datetime import datetime
 # ==========================
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
-app.config['MAX_CONTENT_LENGTH'] = None
-
-# async_mode='eventlet' permite lidar com requisições simultâneas
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='eventlet')
 
-N8N_WEBHOOK_URL = "https://n8ndev.intelibox.com.br/webhook/tcc"
-MAX_AI_LOOPS = 3
+N8N_WEBHOOK_URL = "https://n8ndev.intelibox.com.br/webhook/tccautoia"
+MAX_AI_LOOPS = 5
 
-# Memória volátil para guardar o histórico antes de salvar no disco
+PRICE_GPT_OUTPUT_1M = 1.60 
+PRICE_GEMINI_OUTPUT_1M = 2.50 
+
+# Globais
+session_costs = { "gpt_total": 0.0, "gemini_total": 0.0 }
 conversation_history = []
 
 # ==========================
-# 💰 CONFIGURAÇÃO DE PREÇOS (Por 1 Milhão de Tokens)
-# ==========================
-PRICE_GPT_OUTPUT_1M = 1.60    # US$ 1,60 por 1M tokens de saída
-PRICE_GEMINI_OUTPUT_1M = 2.50 # US$ 2,50 por 1M tokens de saída
-
-# Acumuladores de Custo da Sessão (Memória RAM)
-session_costs = {
-    "gpt_total": 0.0,
-    "gemini_total": 0.0
-}
-
-# ==========================
-# 🔢 UTILITÁRIOS
+# 🛠️ UTILITÁRIOS
 # ==========================
 def contar_tokens(texto, modelo="gpt-4o-mini"):
     try:
         if not texto: return 0
         enc = tiktoken.encoding_for_model(modelo)
         return len(enc.encode(texto))
-    except Exception as e:
-        print("⚠️ Erro ao contar tokens:", e)
-        return 0
+    except: return 0
 
 def normalizar_quebras(texto: str) -> str:
     if not texto: return ""
     return texto.replace("\r\n", "\n").replace("\r", "\n")
 
 def gerar_entrada_ai_user(gpt_msg, gemini_msg):
-    # Gera o prompt técnico para o próximo loop
     return (
-        "Considere as respostas abaixo e responda como um cliente jurídico realista, "
-        "dando continuidade natural à conversa.\n\n"
+        "Considere as respostas abaixo e aja como o cliente jurídico. Seja breve.\n\n"
         f"GPT disse:\n{gpt_msg}\n\n"
         f"Gemini disse:\n{gemini_msg}\n\n"
-        "Agora responda como o cliente."
+        "Sua resposta:"
     )
+
+def limpar_dado_json(dado):
+    """
+    Tenta transformar string JSON em dicionário e extrair texto/classificação.
+    Resolve o problema do 'IA_user' vir como JSON sujo.
+    """
+    if not dado: return "", ""
+    
+    try:
+        # Se for string, tenta carregar como JSON
+        obj = dado
+        if isinstance(dado, str):
+            # Se parecer JSON, converte
+            if dado.strip().startswith("{"):
+                obj = json.loads(dado)
+            else:
+                return dado, "" # É texto puro
+
+        # Se for dicionário, extrai os campos conhecidos
+        if isinstance(obj, dict):
+            # Tenta várias chaves possíveis para a mensagem
+            msg = obj.get("IA_msgGPT") or obj.get("IA_msgGEM") or obj.get("IA_msgCliente") or obj.get("message") or str(obj)
+            classe = obj.get("classificacao", "")
+            return msg, classe
+            
+    except Exception as e:
+        print(f"⚠️ Erro parse JSON: {e}")
+    
+    return str(dado), ""
 
 # ==========================
 # 🌐 ROTAS
@@ -75,203 +89,145 @@ def index():
 
 @app.route("/processar", methods=["POST"])
 def processar():
-    dados = request.get_json()
+    global conversation_history, session_costs
+    
+    dados = request.get_json(silent=True) or {}
     loop_count = int(dados.get("loop_count", 0))
     user_type = dados.get("user_type", "human")
     user_input = dados.get("entrada", "")
 
-    print(f"📨 Entrada recebida (Loop {loop_count} - Tipo: {user_type})...")
+    print(f"\n📨 [LOOP {loop_count}] Processando...")
 
-    gpt_msg = ""
-    gemini_msg = ""
-    ai_user_msg = "" # Variável para guardar a fala "limpa" do cliente (se for IA)
+    # Reset
+    if user_input.strip().lower() == "reset":
+        conversation_history = []
+        session_costs = { "gpt_total": 0.0, "gemini_total": 0.0 }
+        try: requests.post(N8N_WEBHOOK_URL, json={"entrada": "reset"}, timeout=5)
+        except: pass
+        socketio.emit("resposta", {"status": "reset"})
+        return jsonify({"status": "reset"})
 
-    # ------------------------------
-    # 📡 CHAMADA AO n8n
-    # ------------------------------
+    gpt_msg, gemini_msg = "", ""
+    gpt_class, gem_class = "", ""
+    ai_user_msg = ""
+
     try:
-        resposta = requests.post(N8N_WEBHOOK_URL, json={"entrada": user_input}, timeout=60)
+        resposta = requests.post(
+            N8N_WEBHOOK_URL, 
+            json={"entrada": user_input, "user_type": user_type}, 
+            timeout=60
+        )
         resposta.raise_for_status()
         data = resposta.json()
 
-        # Extração dos dados do n8n
-        for item in data:
-            if isinstance(item, dict) and "output" in item:
-                out = item["output"]
-                if isinstance(out, dict):
-                    gpt_msg = out.get("IA_msgGPT", "")
-                    gemini_msg = out.get("IA_msgGem", "")
-
-                    # 🔴 LÓGICA DE EXTRAÇÃO DO IA_USER
-                    raw_ia_user = out.get("IA_user", "")
-                    
-                    if raw_ia_user:
-                        try:
-                            # Se vier como string (escapada), converte para dict
-                            if isinstance(raw_ia_user, str):
-                                user_data = json.loads(raw_ia_user)
-                            else:
-                                user_data = raw_ia_user
-                            
-                            # Tenta pegar o campo exato da mensagem do cliente
-                            if "output" in user_data:
-                                ai_user_msg = user_data["output"].get("IA_msgCliente", "")
-                            else:
-                                ai_user_msg = str(user_data) # Fallback
-                                
-                        except Exception as e:
-                            print(f"⚠️ Erro parse IA_user: {e}")
-                            ai_user_msg = str(raw_ia_user)
+        if isinstance(data, list) and len(data) > 0:
+            item = data[0]
+            # O n8n pode devolver em 'output' ou 'json' ou na raiz
+            out = item.get("output", item.get("json", item))
+            
+            # --- Extração com Limpeza (Resolve o problema do JSON no chat) ---
+            gpt_msg, gpt_class = limpar_dado_json(out.get("IA_msgGPT"))
+            
+            # Gemini as vezes vem como 'IA_msgGEM' ou 'IA_msgGem'
+            gemini_msg, gem_class = limpar_dado_json(out.get("IA_msgGEM") or out.get("IA_msgGem"))
+            
+            # Cliente Simulado (IA_user)
+            ai_user_msg, _ = limpar_dado_json(out.get("IA_user"))
 
     except Exception as e:
-        print("❌ Erro n8n:", e)
-        return jsonify({"status": "erro", "mensagem": str(e)}), 500
+        print("❌ Erro Conexão n8n:", e)
+        gpt_msg = f"Erro: {str(e)}"
 
-    # Normalização e Contagem
+    # Normalização
     gpt_msg = normalizar_quebras(gpt_msg)
     gemini_msg = normalizar_quebras(gemini_msg)
     
+    # Tokens e Custos
     gpt_tokens = contar_tokens(gpt_msg)
     gem_tokens = contar_tokens(gemini_msg)
+    
+    custo_gpt = (gpt_tokens / 1_000_000) * PRICE_GPT_OUTPUT_1M
+    custo_gem = (gem_tokens / 1_000_000) * PRICE_GEMINI_OUTPUT_1M
+    
+    session_costs["gpt_total"] += custo_gpt
+    session_costs["gemini_total"] += custo_gem
 
-# ------------------------------
-    # 💰 CÁLCULO DE CUSTOS
-    # ------------------------------
-    # Fórmula: (Tokens / 1.000.000) * Preço
-    custo_run_gpt = (gpt_tokens / 1_000_000) * PRICE_GPT_OUTPUT_1M
-    custo_run_gem = (gem_tokens / 1_000_000) * PRICE_GEMINI_OUTPUT_1M
-
-    # Atualiza o total acumulado
-    session_costs["gpt_total"] += custo_run_gpt
-    session_costs["gemini_total"] += custo_run_gem
-
-    # ------------------------------
-    # 🧠 ADICIONAR AO HISTÓRICO (O que faltava)
-    # ------------------------------
-    nova_interacao = {
+    # Salva Histórico
+    conversation_history.append({
         "timestamp": datetime.now().isoformat(),
-        "user_type": user_type,
-        "loop_count": loop_count,
-        "user_input_raw": user_input, # O prompt técnico enviado
-        "ai_user_message": ai_user_msg, # O que a Persona "falou" (se houver)
-        "gpt_response": gpt_msg,
-        "gemini_response": gemini_msg,
-        "tokens": {
-            "gpt": gpt_tokens,
-            "gemini": gem_tokens
-        },
-        "costs": {
-            "gpt_run": custo_run_gpt,
-            "gemini_run": custo_run_gem
-        }
-    }
-    conversation_history.append(nova_interacao)
+        "loop": loop_count,
+        "tipo": user_type,
+        "input": user_input,
+        "user_simulado": ai_user_msg,
+        "gpt": {"msg": gpt_msg, "class": gpt_class, "tokens": gpt_tokens, "custo": custo_gpt},
+        "gemini": {"msg": gemini_msg, "class": gem_class, "tokens": gem_tokens, "custo": custo_gem}
+    })
 
-    # ------------------------------
-    # 🚀 ENVIAR AO FRONT
-    # ------------------------------
+    # Envia ao Front
     socketio.emit("resposta", {
         "user_type": user_type,
         "user_input": user_input,    
-        "ai_user_msg": ai_user_msg,  
+        "ai_user_msg": ai_user_msg, # Agora vai limpo!
         "loop_count": loop_count,
+        
         "gpt_msg": gpt_msg,
+        "gpt_classificacao": gpt_class, 
+        
         "gemini_msg": gemini_msg,
-
+        "gem_classificacao": gem_class, 
+        
         "gpt_tokens": gpt_tokens,
         "gem_tokens": gem_tokens,
-
-        "custo_run_gpt": custo_run_gpt,
-        "custo_run_gem": custo_run_gem,
+        
+        # Custos atualizados
+        "custo_run_gpt": custo_gpt,
+        "custo_run_gem": custo_gem,
         "custo_total_gpt": session_costs["gpt_total"],
         "custo_total_gem": session_costs["gemini_total"]
     })
     
-    # Pausa minúscula para garantir o emit
     socketio.sleep(0) 
 
-    # ------------------------------
-    # 🔁 CONTINUA LOOP (AI → AI)
-    # ------------------------------
-    if user_type == "ai_user" and loop_count < MAX_AI_LOOPS:
+    # --- Lógica do Loop ---
+    stop_loop = False
+    termos = ["qualificado", "desqualificado", "encerrar"]
+    if any(t in gpt_class.lower() for t in termos) or any(t in gem_class.lower() for t in termos):
+        stop_loop = True
+
+    # Só continua loop se for AI User e não tiver acabado
+    if user_type == "ai_user" and not stop_loop and loop_count < MAX_AI_LOOPS:
         nova_entrada = gerar_entrada_ai_user(gpt_msg, gemini_msg)
         socketio.start_background_task(continuar_loop, nova_entrada, loop_count + 1)
+    
+    elif stop_loop:
+        socketio.emit("aviso_sistema", {"msg": "🛑 Conversa Finalizada pelo sistema."})
 
     return jsonify({"status": "ok"})
 
-# ==========================
-# 🔁 LOOP CONTROLADO (BACKGROUND)
-# ==========================
 def continuar_loop(nova_entrada, loop_count):
-    socketio.sleep(2) # Delay estético
-    try:
-        # Usa 127.0.0.1 para evitar overhead de DNS
-        requests.post(
-            "http://127.0.0.1:3000/processar",
-            json={
-                "entrada": nova_entrada,
-                "user_type": "ai_user",
-                "loop_count": loop_count
-            },
-            timeout=100
-        )
-    except Exception as e:
-        print("⚠️ Erro no loop background:", e)
+    socketio.sleep(4)
+    try: requests.post("http://127.0.0.1:3000/processar", json={"entrada": nova_entrada, "user_type": "ai_user", "loop_count": loop_count})
+    except: pass
 
-# ==========================
-# 💾 SALVAR JSON NO SERVIDOR
-# ==========================
 @app.route("/salvar_conversa", methods=["POST"])
 def salvar_conversa():
     try:
-        if not conversation_history:
-            return jsonify({"status": "aviso", "mensagem": "Nada para salvar."})
-
-        # Configuração de caminhos
         base_dir = os.path.dirname(os.path.abspath(__file__))
-        pasta_destino = os.path.join(base_dir, "JSON_Conversas")
-        os.makedirs(pasta_destino, exist_ok=True)
-        
-        nome_arquivo = f"conversa_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"
-        caminho_completo = os.path.join(pasta_destino, nome_arquivo)
-        
-        # Estrutura final
-        dados_finais = {
-            "conversation": conversation_history
-        }
-        
-        # Escrita no disco
-        with open(caminho_completo, "w", encoding="utf-8") as f:
-            json.dump(dados_finais, f, ensure_ascii=False, indent=2)
-            
-        print(f"💾 Arquivo salvo em: {caminho_completo}")
-        
-        return jsonify({
-            "status": "ok", 
-            "mensagem": f"Salvo com sucesso!",
-            "arquivo": nome_arquivo
-        })
-
+        pasta = os.path.join(base_dir, "JSON_Conversas")
+        os.makedirs(pasta, exist_ok=True)
+        nome = f"conversa_{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}.json"
+        with open(os.path.join(pasta, nome), "w", encoding="utf-8") as f:
+            json.dump({"historico": conversation_history}, f, ensure_ascii=False, indent=2)
+        return jsonify({"status": "ok", "arquivo": nome})
     except Exception as e:
-        print(f"❌ Erro ao salvar arquivo: {e}")
-        return jsonify({"status": "erro", "mensagem": str(e)}), 500
+        return jsonify({"status": "erro", "mensagem": str(e)})
 
-# ==========================
-# ▶️ INICIAR LOOP MANUALMENTE
-# ==========================
 @app.route("/start_ai_conversation", methods=["POST"])
 def start_ai_conversation():
-    try:
-        requests.post("http://127.0.0.1:3000/processar", json={
-            "entrada": "Olá, sou um cliente com um problema jurídico real e gostaria de orientação.",
-            "user_type": "ai_user",
-            "loop_count": 0
-        }, timeout=1) 
-        return jsonify({"status": "ok"})
-    except:
-        # Ignora erro de timeout, pois a intenção é só disparar
-        return jsonify({"status": "ok"})
+    # Inicia o loop simulado
+    socketio.start_background_task(requests.post, "http://127.0.0.1:3000/processar", json={"entrada": "Olá", "user_type": "ai_user", "loop_count": 0})
+    return jsonify({"status": "started"})
 
 if __name__ == "__main__":
-    print("🚀 Servidor rodando com Eventlet na porta 3000...")
+    print("🚀 Servidor ON (Porta 3000)")
     socketio.run(app, debug=True, port=3000)
