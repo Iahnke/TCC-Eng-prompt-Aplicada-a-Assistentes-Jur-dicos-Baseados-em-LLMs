@@ -1,0 +1,69 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:06:25.725190",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você com seu problema jurídico hoje? Por favor, me informe os detalhes para que eu possa entender melhor a situação e oferecer uma orientação adequada.",
+      "gpt": {
+        "msg": "Para que eu possa ajudar da melhor forma, poderia me informar quem são as partes envolvidas e qual foi a sequência dos fatos que levaram ao problema? Além disso, você já possui algum documento ou prova relacionada ao caso? Poderia me contar mais detalhes?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para começarmos, poderia me descrever qual é o seu problema jurídico?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:06:43.827344",
+      "loop": 1,
+      "user_simulado": "Sou cliente e meu problema é com um fornecedor que não entregou um produto que comprei no valor de R$ 1.500,00. As partes envolvidas sou eu, o consumidor, e o fornecedor da loja online. Tenho o comprovante de pagamento e trocas de mensagens onde o fornecedor confirma o atraso e promete a entrega que nunca aconteceu. Preciso de ajuda para reaver meu dinheiro ou receber o produto.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, você já fez alguma reclamação formal, como no Procon ou Reclame Aqui? Qual foi a última resposta ou posicionamento do fornecedor sobre a entrega ou reembolso? Além disso, você está aberto a negociar um acordo com o fornecedor ou prefere buscar uma solução judicial? O que considera justo: receber o produto, o reembolso ou algum tipo de indenização?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Não entrega de produto por fornecedor online.\n- *Valor do caso*: R$ 1.500,00.\n- *Resumo do caso*: O cliente comprou um produto online no valor de R$ 1.500,00, mas o fornecedor não realizou a entrega. O fornecedor confirmou o atraso e prometeu a entrega, mas não cumpriu. O cliente possui comprovante de pagamento e trocas de mensagens como prova. O pedido é reaver o dinheiro ou receber o produto. Gostaria de adicionar mais alguma informação sobre o caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:07:03.096324",
+      "loop": 2,
+      "user_simulado": "Já registrei reclamação no Procon, mas não obtive resposta efetiva. O fornecedor não oferece reembolso e continua adiando a entrega. Prefiro buscar solução judicial para reaver o dinheiro, pois quero uma solução rápida e justa.",
+      "gpt": {
+        "msg": "Você já tentou o Procon sem sucesso e quer seguir para a via judicial para reaver o dinheiro devido ao atraso na entrega. Para entender melhor, você possui documentos como notas fiscais, protocolos de reclamação, prints das tentativas de contato e negativas do fornecedor? Além disso, o atraso já ultrapassou quanto tempo do prazo original? Você tem testemunhas que possam confirmar essas tentativas ou o não cumprimento da entrega? Poderia reunir esses documentos com facilidade para fortalecer seu pedido?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Não entrega de produto por fornecedor online.\n- *Valor do caso*: R$ 1.500,00.\n- *Resumo do caso*: O cliente comprou um produto online no valor de R$ 1.500,00, mas o fornecedor não realizou a entrega. O fornecedor confirmou o atraso e prometeu a entrega, mas não cumpriu. O cliente possui comprovante de pagamento e trocas de mensagens como prova. O pedido é reaver o dinheiro ou receber o produto. Gostaria de adicionar mais alguma informação sobre o caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:07:19.707769",
+      "loop": 3,
+      "user_simulado": "Tenho todos os documentos: nota fiscal, protocolos do Procon, print das mensagens e comprovante de pagamento. O atraso já é de mais de 30 dias além do prazo original. Não há testemunhas, mas as provas que possuo são suficientes para comprovar o caso. Gostaria de iniciar o processo judicial para reaver o dinheiro.",
+      "gpt": {
+        "msg": "Você mencionou que tem nota fiscal, protocolos do Procon, prints das mensagens e comprovante de pagamento, e que o atraso já ultrapassa 30 dias além do prazo original. Para entender melhor, o valor total pago, incluindo frete, foi de R$ 1.500,00? Além disso, você já tentou contato direto com o fornecedor para um acordo? Está aberto a tentar uma mediação antes de iniciar o processo judicial? Poderia me informar essas questões?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Não entrega de produto por fornecedor online.\n- *Valor do caso*: R$ 1.500,00.\n- *Resumo do caso*: O cliente comprou um produto online no valor de R$ 1.500,00, mas o fornecedor não realizou a entrega. O fornecedor confirmou o atraso e prometeu a entrega, mas não cumpriu. O cliente possui comprovante de pagamento e trocas de mensagens como prova. O pedido é reaver o dinheiro ou receber o produto. Gostaria de adicionar mais alguma informação sobre o caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:07:46.529940",
+      "loop": 4,
+      "user_simulado": "O valor total pago, incluindo frete, foi exatamente R$ 1.500,00. Já tentei contato direto com o fornecedor diversas vezes, mas ele não oferece acordo nem reembolso. Prefiro não tentar mediação, quero seguir diretamente com o processo judicial para reaver meu dinheiro o mais rápido possível.",
+      "gpt": {
+        "msg": "O caso foi qualificado, segue o resumo: \n- Título do caso: Ação judicial para reembolso de compra no valor de R$ 1.500,00 com fornecedor que não responde;\n- Valor do caso: R$ 1.500,00;\n- Resumo do caso: O cliente efetuou uma compra no valor total de R$ 1.500,00, incluindo frete, e não recebeu o produto. Tentou contato diversas vezes com o fornecedor, que não oferece acordo nem reembolso. O cliente possui nota fiscal, protocolos do Procon, prints e comprovante de pagamento organizados para comprovar o caso e deseja seguir diretamente com processo judicial para reaver o dinheiro o mais rápido possível.\n\nVocê gostaria de ajuda para entender os próximos passos do processo judicial ou tem alguma dúvida específica sobre a ação?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Não entrega de produto por fornecedor online.\n- *Valor do caso*: R$ 1.500,00.\n- *Resumo do caso*: O cliente comprou um produto online no valor de R$ 1.500,00, mas o fornecedor não realizou a entrega. O fornecedor confirmou o atraso e prometeu a entrega, mas não cumpriu. O cliente possui comprovante de pagamento e trocas de mensagens como prova. O pedido é reaver o dinheiro ou receber o produto. Gostaria de adicionar mais alguma informação sobre o caso?",
+        "class": "Qualificado"
+      }
+    }
+  ]
+}

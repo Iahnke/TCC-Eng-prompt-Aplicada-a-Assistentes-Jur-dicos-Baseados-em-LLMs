@@ -1,0 +1,30 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T17:33:01.749089",
+      "loop": 0,
+      "user_simulado": "Olá! Sou cliente e estou enfrentando um problema jurídico. Gostaria de ajuda para entender meus direitos e possibilidades. Posso fornecer detalhes sobre meu caso para que possamos conversar melhor? Por exemplo, posso descrever um problema relacionado a um valor abaixo de mil reais ou um problema mais complexo acima desse valor.",
+      "gpt": {
+        "msg": "Olá! Estou aqui para ajudar com seu problema jurídico. Para começarmos, poderia me informar qual é o tema principal do seu caso e se o valor envolvido é inferior ou superior a mil reais? Assim poderei entender melhor sua situação. Poderia me contar mais detalhes?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Compreendo perfeitamente. Por favor, sinta-se à vontade para me fornecer todos os detalhes sobre o seu caso. Quanto mais informações você puder compartilhar, melhor poderei entender a situação e te ajudar a identificar seus direitos e possibilidades. Você gostaria de começar descrevendo o ocorrido?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:33:11.711312",
+      "loop": 1,
+      "user_simulado": "Meu problema é relacionado a uma cobrança indevida em uma fatura de telefone. O valor é inferior a mil reais, cerca de 350 reais. Gostaria de saber como proceder para contestar essa cobrança e quais meus direitos nesse caso.",
+      "gpt": {
+        "msg": "Entendi que você está enfrentando uma cobrança indevida em uma fatura de telefone no valor de aproximadamente R$350,00. Infelizmente, casos financeiros com valor inferior a R$1.000,00 são desqualificados para atendimento aqui. Posso ajudar com outra dúvida jurídica que você tenha?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado, segue o resumo:\n- *Título do caso*: Cobrança Indevida em Fatura de Telefone;\n- *Valor do caso*: R$350,00;\n- *Resumo do caso*: O cliente relata uma cobrança indevida de R$350,00 em sua fatura de telefone. O caso foi desqualificado devido ao valor ser inferior a R$1.000,00.\n\nHá algo mais em que eu possa ajudar?",
+        "class": "Desqualificado"
+      }
+    }
+  ]
+}

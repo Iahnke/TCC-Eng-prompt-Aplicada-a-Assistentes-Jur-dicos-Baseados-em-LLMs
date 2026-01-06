@@ -1,0 +1,43 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:14:47.198959",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você hoje? Por favor, me informe qual é o seu problema jurídico e todos os detalhes relevantes para que eu possa auxiliá-lo.",
+      "gpt": {
+        "msg": "Olá! Para entender melhor a sua situação, poderia me informar quem são as partes envolvidas, o que exatamente aconteceu, e qual é o problema jurídico que você está enfrentando? Além disso, gostaria de saber o que você espera como solução para esse caso. Já houve algum contato ou tentativa de resolver a questão com a outra parte envolvida?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Seja bem-vindo(a) à Processar Online. Eu sou a Juliana, sua assistente jurídica virtual. Para começarmos, você gostaria de continuar de onde paramos ou tem uma nova questão jurídica que precisa de ajuda hoje?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:15:06.216611",
+      "loop": 1,
+      "user_simulado": "Tenho uma nova questão jurídica. Sou dono de uma empresa e fiz um contrato de prestação de serviços com um fornecedor. No entanto, ele não cumpriu os prazos e entregas conforme previsto. Tentei contato diversas vezes, mas não houve solução. Preciso saber quais medidas legais posso tomar para resolver esse problema e proteger meus interesses.",
+      "gpt": {
+        "msg": "Pelo que você descreveu, seu caso envolve um contrato de prestação de serviços com descumprimento de prazos e entregas por parte do fornecedor. Apesar de ser uma questão importante, casos relacionados a contratos são classificados como desqualificados para nossa plataforma. Você possui o contrato assinado e documentos que comprovem as tentativas de contato? Gostaria de ajuda com alguma outra questão jurídica?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Olá! Entendo perfeitamente a sua situação. Para que eu possa entender melhor, poderia me dar mais detalhes sobre o contrato, como a data de assinatura, o que exatamente foi acordado e quais foram os prazos e entregas que não foram cumpridos? Além disso, qual seria o resultado ideal para você nesta situação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:15:24.370573",
+      "loop": 2,
+      "user_simulado": "O contrato foi assinado em 10 de janeiro de 2024. Nele, ficou acordado que o fornecedor entregaria produtos específicos em três lotes, com prazos para cada entrega: 10 de fevereiro, 10 de março e 10 de abril de 2024. Até agora, nenhum dos lotes foi entregue. O resultado ideal seria a entrega imediata dos produtos ou a rescisão do contrato com ressarcimento dos valores pagos, além de eventual indenização por prejuízos causados. Tenho e-mails e mensagens que comprovam as tentativas de contato, mas o fornecedor não respondeu. Preciso saber quais medidas legais tomar agora para proteger minha empresa.",
+      "gpt": {
+        "msg": "Pelo que você descreveu, seu caso envolve um contrato de prestação de serviços com descumprimento de prazos e entregas por parte do fornecedor. Apesar de ser uma questão importante, casos relacionados a contratos são classificados como desqualificados para nossa plataforma. Você possui o contrato assinado e documentos que comprovem as tentativas de contato? Gostaria de ajuda com alguma outra questão jurídica?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado. Segue o resumo: O cliente firmou um contrato de fornecimento em 10 de janeiro de 2024, com entregas programadas para fevereiro, março e abril de 2024. Nenhuma das entregas foi realizada e o fornecedor não respondeu às tentativas de contato. O cliente busca a entrega dos produtos ou a rescisão do contrato com ressarcimento e indenização, possuindo e-mails e mensagens como prova. No entanto, casos de direito civil, como contratos, são desqualificados de acordo com nossas diretrizes. Gostaria de saber se há mais algum detalhe que você considere relevante sobre este caso?",
+        "class": "Desqualificado"
+      }
+    }
+  ]
+}

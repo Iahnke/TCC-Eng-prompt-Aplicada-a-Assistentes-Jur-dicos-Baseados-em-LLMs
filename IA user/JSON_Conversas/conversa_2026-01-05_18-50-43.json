@@ -1,0 +1,173 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:46:59.046125",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você hoje com seu problema jurídico? Pode me contar um pouco mais sobre o que está acontecendo?",
+      "gpt": {
+        "msg": "Olá! Para que eu possa ajudar você da melhor forma, poderia me contar quem são as partes envolvidas no seu problema jurídico e qual foi o principal fato que gerou essa situação? Já houve alguma tentativa de resolver diretamente com a outra parte?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para que eu possa te ajudar da melhor forma, por favor, me diga: quem são as partes envolvidas neste problema e qual é a natureza do ocorrido?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:47:22.832118",
+      "loop": 1,
+      "user_simulado": "As partes envolvidas são eu, como consumidor, e uma empresa de telefonia. O problema ocorreu porque a empresa cobrou uma fatura indevida de mais de mil reais no meu cartão de crédito. Já tentei resolver diretamente com a empresa, mas não obtive sucesso. Você poderia me orientar sobre qual o próximo passo para resolver essa situação?",
+      "gpt": {
+        "msg": "Para que eu possa ajudar melhor, você poderia informar se registrou alguma reclamação formal na empresa ou em órgãos de defesa do consumidor? Além disso, tem a fatura ou extrato do cartão com a cobrança indevida e algum registro das tentativas de contato com a empresa? Você prefere tentar um acordo ou busca uma solução judicial? Poderia me contar mais sobre isso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para darmos o próximo passo, preciso saber: você tem o extrato do cartão de crédito ou a fatura que mostra essa cobrança indevida?\n\nE sobre as tentativas de contato com a empresa, você possui algum protocolo de atendimento ou e-mail que comprove que tentou resolver?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:47:41.787285",
+      "loop": 2,
+      "user_simulado": "Sim, tenho a fatura do cartão que mostra a cobrança indevida e também registrei uma reclamação formal na empresa. Tenho alguns protocolos de atendimento e e-mails trocados com a empresa que comprovam minhas tentativas de resolução. Você poderia me orientar sobre qual seria o melhor caminho para formalizar essa disputa e resolver o problema? Prefiro entender as etapas antes de decidir se busco um acordo ou solução judicial. Qual o próximo passo que você recomenda?",
+      "gpt": {
+        "msg": "Você já tentou registrar uma reclamação em órgãos como o Procon ou na plataforma consumidor.gov.br? Além disso, houve alguma resposta da empresa após suas reclamações formais? Você estaria disposto a tentar uma mediação ou conciliação antes de considerar uma ação judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo. A fatura do cartão, os protocolos de atendimento e os e-mails são documentos importantes para o seu caso. Para darmos o próximo passo, você já registrou essa reclamação em órgãos como o Procon ou na plataforma consumidor.gov.br? E, pensando adiante, você estaria aberto a tentar uma mediação ou conciliação para resolver isso amigavelmente?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:47:54.415785",
+      "loop": 3,
+      "user_simulado": "Sim, já registrei a reclamação no Procon, mas até agora não recebi uma resposta satisfatória da empresa. Estou aberto a tentar uma mediação ou conciliação para resolver o problema de forma amigável. Qual seria o procedimento para iniciar essa mediação?",
+      "gpt": {
+        "msg": "Você já sabe se a empresa aceitaria participar de uma audiência de conciliação no Juizado Especial Cível? Além disso, a empresa já foi notificada oficialmente pelo Procon sobre sua reclamação? Você tem interesse em buscar a mediação diretamente pelo Procon ou prefere outra instituição, como a Câmara de Mediação e Arbitragem? Como deseja prosseguir?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendo que você já registrou a reclamação no Procon e está buscando uma mediação. Para que eu possa te ajudar da melhor forma, poderia me dar mais detalhes sobre o problema que você teve com a empresa?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:48:13.003420",
+      "loop": 4,
+      "user_simulado": "O principal problema é que a empresa cobrou uma fatura indevida de mais de mil reais no meu cartão de crédito, algo que não autorizei. Já tentei contato diversas vezes, tenho protocolos e e-mails que comprovam minhas tentativas de resolver a questão diretamente com a empresa, mas não obtive sucesso. A empresa até o momento não deu uma resposta satisfatória ao Procon. Sobre a audiência de conciliação, não sei se a empresa aceitaria participar no Juizado Especial Cível. Prefiro buscar orientação para iniciar a mediação pelo Procon. Você poderia me explicar como começar o procedimento de mediação por lá e quais documentos preciso levar? Qual outro passo posso seguir para fortalecer minha reclamação?",
+      "gpt": {
+        "msg": "Você já tem os protocolos de reclamação registrados e os documentos organizados, como fatura, e-mails e comprovantes de contato, o que é ótimo para iniciar a mediação no Procon. Além disso, você possui testemunhas ou outras provas que possam reforçar sua reclamação? Quer que eu ajude a listar os documentos essenciais para levar na audiência de mediação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo perfeitamente a sua situação e a frustração de lidar com uma cobrança indevida, especialmente após tantas tentativas de resolução. Para que eu possa entender todos os detalhes e te auxiliar da melhor forma, poderia me informar a data exata em que essa cobrança indevida foi realizada e qual o valor preciso? Além disso, você já possui um número de protocolo do Procon ou algum comprovante de abertura de reclamação por lá?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:48:27.163157",
+      "loop": 5,
+      "user_simulado": "A cobrança indevida aconteceu no dia 10 de março de 2024 e o valor exato foi R$ 1.250,00. Tenho sim o número do protocolo do Procon, que é 123456789. Além disso, não tenho testemunhas, mas todos os documentos como fatura, e-mails e protocolos de atendimento estão organizados. Poderiam me ajudar a listar os documentos essenciais para levar na audiência de mediação no Procon?",
+      "gpt": {
+        "msg": "Você está bem preparado com o protocolo e documentos organizados. Para a audiência no Procon, leve a fatura com a cobrança, protocolos, e-mails, documentos pessoais e comprovante de residência. Você já sabe se precisa comparecer pessoalmente ou pode ser representado por alguém? Gostaria de orientações sobre como se portar na audiência para fortalecer seu caso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo. Para a audiência de mediação no Procon, é fundamental que você leve todos os documentos que comprovem a cobrança indevida e suas tentativas de resolução. Isso inclui a fatura com a cobrança, os e-mails trocados com a empresa, os protocolos de atendimento e o número do protocolo do Procon. Você tem todos esses documentos facilmente acessíveis?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:48:43.649741",
+      "loop": 6,
+      "user_simulado": "Sim, tenho todos esses documentos organizados e acessíveis. No entanto, gostaria de saber se posso ser representado por um terceiro na audiência do Procon ou se é necessário comparecer pessoalmente? Também gostaria de receber orientações sobre como devo me portar durante a audiência para aumentar minhas chances de um resultado favorável. Você poderia me ajudar com essas informações?",
+      "gpt": {
+        "msg": "Você já verificou se o Procon da sua cidade aceita que um terceiro o represente por procuração? Isso pode variar conforme o órgão. Além disso, você prefere receber orientações sobre como expor os fatos de forma clara e objetiva na audiência ou sobre a postura e diálogo com a empresa e o mediador? Qual dessas informações é mais importante para você?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo suas dúvidas sobre a representação e a conduta na audiência do Procon. No entanto, como assistente jurídica virtual, meu foco principal é entender os detalhes do seu caso para verificar se você possui uma causa jurídica válida. Para isso, preciso que me conte mais sobre a situação que o levou a essa audiência. Poderia me explicar o que aconteceu e qual é o seu pedido principal neste caso?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:49:01.157176",
+      "loop": 7,
+      "user_simulado": "O que aconteceu foi uma cobrança indevida de R$ 1.250,00 em meu cartão de crédito no dia 10 de março de 2024, valor que não autorizei. Já registrei reclamação no Procon com protocolo número 123456789 e tenho vários documentos que comprovam minha tentativa de resolver diretamente com a empresa, como e-mails e protocolos. Meu pedido principal é a exclusão dessa cobrança indevida e a restituição do valor. Quanto à representação, ainda não confirmei se o Procon aceita que um terceiro me represente. Gostaria de receber orientações sobre como expor os fatos de forma clara e objetiva na audiência, isso me ajudaria a ser mais eficaz. Você poderia me ajudar com essas orientações?",
+      "gpt": {
+        "msg": "Você já tem uma boa base para expor os fatos na audiência: informe a cobrança indevida, data, valor e que não autorizou, apresente os documentos e o protocolo do Procon. Para ajudar, posso sugerir um roteiro simples para organizar sua fala ou dicas para responder perguntas durante a audiência. Qual dessas opções você prefere? Além disso, gostaria de ajuda para estruturar um resumo escrito para levar à audiência?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendi que você teve uma cobrança indevida de R$ 1.250,00 em seu cartão de crédito, que não autorizou, e que já registrou uma reclamação no Procon. Seu pedido é a exclusão dessa cobrança e a restituição do valor. Você mencionou que possui documentos que comprovam suas tentativas de resolver a situação diretamente com a empresa. Poderia me dar mais detalhes sobre esses documentos, como quais tipos de e-mails ou protocolos você tem?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:49:19.316035",
+      "loop": 8,
+      "user_simulado": "Tenho e-mails trocando mensagens com a empresa onde explico a situação e peço o estorno, além de protocolos que recebi em ligações e nos atendimentos online. Gostaria de receber o roteiro simples para organizar minha fala na audiência, pode me ajudar com isso?",
+      "gpt": {
+        "msg": "Você já tem e-mails e protocolos que ajudam muito no seu caso. Um roteiro simples para a audiência pode ser: 1) Apresentação e motivo da audiência; 2) Descrição da cobrança indevida com datas e valores; 3) Mostra as tentativas de resolver com documentos; 4) Pedido de exclusão da cobrança e estorno. Gostaria que eu ajude a elaborar frases para cada parte do roteiro para facilitar sua apresentação, ou prefere um roteiro mais resumido para adaptar? Como prefere seguir?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendido, um roteiro simples e eficaz para sua fala pode ser:\n\n1.  **Início:** \"Bom dia/tarde. Estou aqui devido à cobrança indevida de R$ 1.250,00 em meu cartão de crédito, ocorrida em 10/03/2024, que não autorizei.\"\n2.  **Tentativas de Resolução:** \"Tentei resolver diretamente com a empresa por e-mail e telefone, conforme os protocolos [mencione alguns] e e-mails que possuo.\"\n3.  **Pedido:** \"Meu objetivo é a exclusão dessa cobrança e a restituição do valor.\"\n\nVocê gostaria de praticar essa fala ou prefere que eu sugira como apresentar seus documentos durante a audiência?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:49:36.399025",
+      "loop": 9,
+      "user_simulado": "Prefiro que me ajude a elaborar frases para cada parte do roteiro para facilitar minha apresentação, por favor. Também gostaria de saber como devo organizar os documentos na audiência para que fiquem fáceis de apresentar e consultar. Pode me orientar sobre isso?",
+      "gpt": {
+        "msg": "Para facilitar sua apresentação, você pode usar frases como:\n\n1) Apresentação: \"Meu nome é [seu nome] e estou aqui para tratar de uma cobrança indevida no meu cartão de crédito.\"\n2) Descrição da cobrança: \"No dia 10/03/2024, foi cobrado R$ 1.250,00 sem minha autorização.\"\n3) Tentativas de solução: \"Enviei e-mails e fiz ligações, com protocolos [números], buscando o estorno.\"\n4) Pedido: \"Solicito a exclusão da cobrança e a restituição do valor.\"\n\nQuanto à organização dos documentos, é ideal organizá-los em ordem cronológica, com uma capa indicando o tipo (e-mails, protocolos, comprovantes) para facilitar a consulta rápida.\n\nVocê já tem os documentos impressos ou apenas digitais? Isso ajuda a orientar melhor. Como prefere organizar seus documentos para a audiência?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você precisa de ajuda com a organização de documentos e elaboração de frases para uma apresentação. No entanto, minha especialidade é auxiliar em questões jurídicas, identificando se você possui uma causa válida e coletando as informações necessárias para isso. Posso te ajudar com alguma dúvida jurídica?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:49:58.350239",
+      "loop": 10,
+      "user_simulado": "Tenho os documentos impressos e organizados em pastas, mas aceito sugestões para melhor organização se houver. Poderia me orientar sobre como apresentar a questão da cobrança indevida de forma clara durante a audiência? Além disso, gostaria de saber se existem práticas comuns na audiência que eu deva evitar para não prejudicar meu pedido.",
+      "gpt": {
+        "msg": "Você já tem uma boa organização dos documentos, com pastas e impressos. Sugiro numerar as páginas, criar um índice para facilitar a localização e usar marcadores coloridos para separar os tipos de documentos. Na audiência, apresente a cobrança indevida de forma objetiva, explicando datas, valores e as tentativas de contato para resolver o problema. Evite interromper o juiz, falar fora do assunto ou demonstrar nervosismo excessivo. Para ajudar melhor, você sabe se a audiência será presencial ou virtual? Além disso, poderá levar algum aparelho para consultar documentos digitais durante a audiência?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "É ótimo que você já tenha seus documentos organizados! Isso é um excelente começo. Para te ajudar a apresentar a questão da cobrança indevida de forma clara e evitar práticas que possam prejudicar seu pedido, preciso entender um pouco mais sobre os detalhes dessa cobrança. Você poderia me fornecer mais informações sobre o que exatamente está sendo cobrado indevidamente e qual o valor aproximado envolvido?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:50:15.732735",
+      "loop": 11,
+      "user_simulado": "A cobrança indevida é de R$ 1.250,00, referente a uma compra no cartão de crédito que eu não autorizei, realizada no dia 10 de março de 2024. Tenho e-mails trocando mensagens com a empresa solicitando o estorno e vários protocolos de atendimento telefônico e online. A audiência ainda não está confirmada se será presencial ou virtual, e pretendo levar apenas os documentos impressos organizados. Gostaria de saber qual a melhor forma de me posicionar no momento da audiência para destacar esses pontos claramente. Você pode me orientar sobre isso?",
+      "gpt": {
+        "msg": "Você já tentou resolver essa cobrança diretamente com a empresa antes de buscar a via judicial? Como foi essa tentativa? Além disso, você pretende falar primeiro na audiência ou aguardar para responder perguntas? Isso ajudará a estruturar sua fala para destacar os pontos principais de forma clara e objetiva.",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado, segue o resumo:\n- *Título do caso*: Cobrança indevida em cartão de crédito.\n- *Valor do caso*: R$1.250,00.\n- *Resumo do caso*: O cliente busca orientação para se posicionar em audiência referente a uma cobrança indevida de R$1.250,00. No entanto, casos de direito civil que envolvem processos judiciais não se enquadram nos tipos de casos que podemos auxiliar no momento. Há algo mais em que eu possa ajudar?",
+        "class": "Desqualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:50:35.215477",
+      "loop": 12,
+      "user_simulado": "Sim, tentei resolver diretamente com a empresa. Enviei vários e-mails e fiz chamadas telefônicas, sempre pedindo o estorno, mas não tive sucesso. Sobre a audiência, eu gostaria de falar primeiro para poder apresentar minha versão dos fatos de forma clara e direta. Poderiam me orientar como estruturar minha fala inicial para ser objetiva e eficiente?",
+      "gpt": {
+        "msg": "Você já tem e-mails e protocolos que comprovam suas tentativas de contato, o que é ótimo para fundamentar seu pedido. Para a fala inicial, sugiro: 1. Apresente-se e informe o motivo da audiência. 2. Explique a cobrança indevida com data e valor. 3. Mostre as tentativas de resolução, mencionando os e-mails e protocolos. 4. Peça o estorno e, se for o caso, indenização. Você tem testemunhas que possam confirmar suas tentativas de contato ou a cobrança indevida?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado, segue o resumo:\n- *Título do caso*: Cobrança indevida em cartão de crédito.\n- *Valor do caso*: R$1.250,00.\n- *Resumo do caso*: O cliente busca orientação para se posicionar em audiência referente a uma cobrança indevida de R$1.250,00. No entanto, casos de direito civil que envolvem processos judiciais não se enquadram nos tipos de casos que podemos auxiliar no momento. Há algo mais em que eu possa ajudar?",
+        "class": "Desqualificado"
+      }
+    }
+  ]
+}

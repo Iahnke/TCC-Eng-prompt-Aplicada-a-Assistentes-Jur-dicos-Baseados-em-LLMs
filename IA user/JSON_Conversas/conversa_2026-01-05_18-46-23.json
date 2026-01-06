@@ -1,0 +1,173 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:42:52.119750",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você hoje? Por favor, me conte qual é o seu problema jurídico para que eu possa entender melhor e te orientar.",
+      "gpt": {
+        "msg": "Olá! Para que eu possa ajudar melhor, poderia me informar quem são as partes envolvidas e quando os fatos ocorreram? Assim, consigo entender o contexto completo.",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para que eu possa te ajudar da melhor forma, por favor, me explique qual é a sua questão jurídica. Você prefere me contar por texto ou áudio?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:43:06.435957",
+      "loop": 1,
+      "user_simulado": "Oi, o problema é com meu empregador. Fui demitido sem justa causa no mês passado, mas acredito que meus direitos não foram respeitados. Posso contar tudo por texto mesmo. Gostaria de saber quais documentos devo reunir para começar a análise. Você pode me ajudar com isso?",
+      "gpt": {
+        "msg": "Para podermos ajudar melhor, você poderia me informar se recebeu algum documento ou aviso no momento da demissão? E quais verbas ou direitos você acredita que não foram pagos corretamente? Além disso, você tem em mãos seu contrato de trabalho ou holerites? Quais documentos você já conseguiu reunir até agora?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa entender melhor o que aconteceu e quais direitos você acredita que não foram respeitados, poderia me dar mais detalhes sobre a sua demissão? Por exemplo, há quanto tempo você trabalhava na empresa e quais foram as circunstâncias da demissão?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:43:18.894440",
+      "loop": 2,
+      "user_simulado": "Eu trabalhava na empresa há três anos. Recebi um aviso de demissão sem justa causa, mas não me pagaram a multa do FGTS nem as férias proporcionais. Tenho meu contrato de trabalho e alguns holerites, mas não todos. Você poderia me orientar sobre quais documentos específicos devo reunir para tentar comprovar esses direitos não pagos?",
+      "gpt": {
+        "msg": "Além do contrato e dos holerites, seria importante reunir o termo de rescisão, extrato do FGTS, comprovantes de pagamento e o cartão de ponto, se tiver. Você já tentou solicitar esses documentos à empresa? E houve alguma tentativa de resolver isso diretamente com seu empregador?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa entender todos os detalhes, você poderia me informar a data exata da sua demissão e se houve alguma comunicação formal sobre os valores que seriam pagos ou não?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:43:30.890683",
+      "loop": 3,
+      "user_simulado": "Minha demissão ocorreu no dia 15 do mês passado. Recebi um comunicado formal por escrito, mas os valores detalhados no documento não incluem a multa do FGTS nem as férias proporcionais. Já solicitei alguns documentos à empresa, mas não recebi tudo que pedi até agora. Você poderia me orientar sobre o próximo passo para garantir que eu consiga esses documentos e meus direitos sejam respeitados?",
+      "gpt": {
+        "msg": "Você já enviou algum pedido formal, por escrito, solicitando os documentos faltantes? A empresa respondeu ou justificou a ausência desses pagamentos? Além disso, você está aberto a tentar um acordo amigável antes de buscar medidas judiciais?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa te ajudar da melhor forma, poderia me informar qual era a sua função na empresa e há quanto tempo você trabalhava lá?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:43:49.966478",
+      "loop": 4,
+      "user_simulado": "Eu já enviei um pedido formal por escrito solicitando os documentos que faltam, mas não obtive resposta da empresa até o momento. Estou aberto a tentar um acordo amigável, se for uma possibilidade. Quanto à função, eu atuava como assistente administrativo na empresa durante os três anos que trabalhei lá. Qual o próximo passo que devo tomar para garantir meus direitos?",
+      "gpt": {
+        "msg": "Você tem registro do envio e protocolo desse pedido formal à empresa? Além disso, há testemunhas ou colegas que possam confirmar sua função e tempo de trabalho? E você já consultou algum órgão trabalhista, como sindicato ou Ministério do Trabalho? Poderia me informar mais sobre isso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você já enviou o pedido formal e está aberto a um acordo. Para prosseguirmos, poderia me informar o nome completo da empresa e a data exata da sua demissão?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:44:21.341180",
+      "loop": 5,
+      "user_simulado": "Sim, tenho o comprovante de envio do pedido formal para a empresa. Também há colegas que podem confirmar meu tempo e função. Ainda não consultei sindicato ou Ministério do Trabalho, gostaria de saber se devo fazer isso. A empresa se chama ABC Comércio Ltda e a demissão foi no dia 15 do mês passado. Qual seria o próximo passo para tentar um acordo amigável?",
+      "gpt": {
+        "msg": "Você mencionou que tem comprovante de envio do pedido formal para a empresa e colegas que podem confirmar seu tempo e função, o que é muito importante. Para avançarmos, gostaria de saber: você tem em mãos algum contrato de trabalho, holerites ou recibos que comprovem sua função e tempo na empresa? Além disso, possui algum registro, como e-mails ou mensagens, que mostrem sua disposição para um acordo amigável? E já tentou algum contato direto, como reunião ou ligação, para propor esse acordo? Qual seria a sua expectativa em termos de valores ou condições para esse acordo?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você já tem o comprovante e testemunhas. Para seguirmos, você possui seus contratos de trabalho e holerites que comprovem sua função e tempo na empresa? E tem algum registro de outras tentativas de contato com a empresa para negociar um acordo amigável?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:44:35.187337",
+      "loop": 6,
+      "user_simulado": "Sim, eu tenho meu contrato de trabalho e a maioria dos holerites, mas faltam alguns. Também tenho alguns e-mails trocados com o RH demonstrando minha intenção de resolver a situação amigavelmente. Ainda não consegui marcar nenhuma reunião ou ligação para esse fim. Como devo proceder para formalizar essa tentativa de acordo direto com a empresa?",
+      "gpt": {
+        "msg": "Você já enviou alguma proposta formal por escrito para a empresa, detalhando os termos do acordo que deseja? E qual seria o prazo que você gostaria para a empresa responder a essa proposta? Além disso, estaria disposto a aceitar uma mediação externa, como pelo sindicato ou Ministério do Trabalho, para tentar formalizar esse acordo?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo sua intenção de buscar uma solução amigável. Para que eu possa entender melhor a sua situação, poderia me explicar qual é o principal problema ou a questão que você busca resolver com a empresa?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:44:50.159645",
+      "loop": 7,
+      "user_simulado": "O principal problema é que a empresa não pagou a multa do FGTS nem as férias proporcionais após minha demissão. Eu gostaria de resolver isso para receber esses valores corretamente. Ainda não enviei uma proposta formal de acordo por escrito, mas estou disposto a fazer isso. Você poderia me orientar sobre como elaborar essa proposta e qual prazo seria razoável para a empresa responder? E também gostaria de saber mais sobre como funciona a mediação pelo sindicato ou Ministério do Trabalho. Qual seria o melhor caminho para formalizar essa tentativa de acordo?",
+      "gpt": {
+        "msg": "Você mencionou que a empresa não pagou a multa do FGTS nem as férias proporcionais após sua demissão, correto? Para ajudar melhor, você poderia informar se já calculou o valor exato que a empresa deve pagar? Além disso, qual prazo você considera razoável para a empresa responder à sua proposta de acordo? E sobre a mediação, você gostaria que eu explicasse como funciona o processo pelo sindicato ou Ministério do Trabalho para formalizar essa tentativa de acordo?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa te ajudar da melhor forma, poderia me informar a data exata da sua demissão e qual foi o motivo alegado pela empresa? Houve alguma comunicação formal da empresa sobre esses valores não pagos?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:45:06.028721",
+      "loop": 8,
+      "user_simulado": "Minha demissão foi no dia 15 do mês passado, e o motivo alegado foi uma demissão sem justa causa. Ainda não recebi nenhuma comunicação formal da empresa informando sobre esses valores não pagos. Quanto ao cálculo exato dos valores, ainda não fiz, mas pretendo fazê-lo. Considero razoável dar um prazo de 15 dias para a empresa responder a uma proposta formal de acordo. Gostaria também que você explicasse como funciona o processo de mediação pelo sindicato ou Ministério do Trabalho para formalizar essa tentativa de acordo. Poderia me orientar sobre isso?",
+      "gpt": {
+        "msg": "Você sabe se a empresa possui um sindicato que a represente ou se você está filiado a algum sindicato da categoria? Já verificou se há alguma cláusula no seu contrato ou acordo coletivo que trate de mediação ou negociação prévia? Além disso, você já sabe qual sindicato representa sua categoria profissional? Tem interesse em tentar primeiro a mediação pelo sindicato ou prefere ir direto ao Ministério do Trabalho para formalizar a tentativa de acordo?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação e a importância de buscar uma solução para os valores não pagos após a demissão sem justa causa. Para que eu possa te auxiliar da melhor forma, você poderia me detalhar quais seriam esses valores que você menciona não ter recebido? Além disso, você já tentou algum contato informal com a empresa sobre esses valores?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:45:32.369453",
+      "loop": 9,
+      "user_simulado": "A empresa ABC Comércio Ltda é representada por um sindicato da categoria, e eu sou filiado a ele. No meu contrato de trabalho, não há cláusula específica sobre mediação ou negociação prévia. Eu ainda não fiz contato informal com a empresa sobre os valores exatos, mas pretendo calcular os valores da multa do FGTS e das férias proporcionais que não recebi. Você poderia me orientar sobre qual seria o melhor caminho para formalizar essa tentativa de acordo: tentar a mediação pelo sindicato primeiro ou ir direto ao Ministério do Trabalho? E como devo proceder para calcular esses valores corretamente?",
+      "gpt": {
+        "msg": "Como você é filiado ao sindicato, a mediação por ele costuma ser o caminho inicial recomendado, pois pode facilitar o acordo. Você já sabe qual o procedimento do seu sindicato para iniciar a mediação? E sobre o cálculo, você tem acesso aos seus contracheques e extrato do FGTS para fazer essa apuração ou precisa de orientação para obtê-los?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendo a sua dúvida sobre o melhor caminho para formalizar um acordo e a necessidade de calcular os valores. Para que eu possa te auxiliar da melhor forma e entender se você possui uma causa jurídica válida, poderia me explicar um pouco mais sobre as circunstâncias da sua saída da empresa e por que você acredita que esses valores (multa do FGTS e férias proporcionais) são devidos? Assim, consigo ter uma visão mais completa da situação.",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:45:48.144333",
+      "loop": 10,
+      "user_simulado": "Minha saída foi uma demissão sem justa causa. Acredito que tenho direito à multa do FGTS porque isso é previsto por lei para esse tipo de demissão. Quanto às férias proporcionais, trabalhei alguns meses após minhas últimas férias e não recebi o valor proporcional a esse período. Sobre o sindicato, eu ainda não sei o procedimento para iniciar a mediação e tenho acesso a alguns contracheques, mas não ao extrato completo do FGTS. Poderiam me orientar sobre como proceder para conseguir essa documentação e para iniciar a mediação com o sindicato?",
+      "gpt": {
+        "msg": "Você mencionou a demissão sem justa causa, o direito à multa do FGTS e férias proporcionais, além da dúvida sobre como obter o extrato completo do FGTS e iniciar a mediação com o sindicato. Já tentou acessar o site ou aplicativo da Caixa Econômica Federal para conseguir o extrato do FGTS? E gostaria que eu explique como entrar em contato com o sindicato e qual documentação levar para iniciar a mediação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para obter o extrato completo do FGTS, você pode acessar o aplicativo FGTS da Caixa Econômica Federal, o site da Caixa ou ir diretamente a uma agência. Quanto à mediação com o sindicato, o ideal é entrar em contato diretamente com o seu sindicato para verificar os procedimentos e agendamentos. Você já tentou algum desses passos ou gostaria de mais alguma orientação sobre como proceder?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:46:04.972155",
+      "loop": 11,
+      "user_simulado": "Ainda não tentei acessar o aplicativo ou o site da Caixa para obter o extrato do FGTS. Também não entrei em contato com o sindicato ainda para verificar o procedimento de mediação. Poderiam me orientar passo a passo sobre como acessar o extrato do FGTS e qual o telefone ou e-mail ideal para falar com o sindicato? E qual documentação é recomendada levar para iniciar a mediação?",
+      "gpt": {
+        "msg": "Para acessar o extrato do FGTS, você pode baixar o aplicativo FGTS no celular ou acessar o site da Caixa, criando um cadastro com seu CPF e dados pessoais. Já tentou fazer esse cadastro? Sobre o sindicato, você sabe o nome completo ou telefone deles para que eu possa ajudar a identificar o contato correto? Além disso, você tem documentos como carteira de trabalho, contrato ou contracheques para levar na mediação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Com certeza! Para acessar o extrato do FGTS, você pode baixar o aplicativo \"FGTS\" da Caixa Econômica Federal no seu celular ou acessar o site oficial da Caixa (www.caixa.gov.br) e procurar pela seção do FGTS. Geralmente, você precisará do seu CPF e de uma senha cadastrada. Caso não tenha, o próprio sistema irá guiá-lo para criar uma. Para entrar em contato com o sindicato, o ideal é pesquisar o sindicato da sua categoria profissional na sua cidade ou região. Você pode fazer isso por meio de uma busca na internet, utilizando termos como \"sindicato [sua profissão] [sua cidade]\". Nos sites dos sindicatos, você geralmente encontrará telefones, e-mails e endereços para contato. Para a mediação, a documentação recomendada pode variar, mas geralmente inclui: carteira de trabalho, holerites, extrato do FGTS, contrato de trabalho e qualquer outro documento que comprove a relação de trabalho e o problema em questão. Você gostaria de tentar acessar o extrato do FGTS agora ou prefere que eu o ajude com alguma outra etapa?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:46:19.168029",
+      "loop": 12,
+      "user_simulado": "Ainda não tentei fazer o cadastro no aplicativo ou site da Caixa. O sindicato que me representa é o Sindicato dos Comerciários da minha cidade, mas não tenho o telefone ou email. Tenho minha carteira de trabalho e alguns contracheques. Poderiam me ajudar a encontrar o contato do sindicato e a guiar no processo de cadastramento para o extrato do FGTS?",
+      "gpt": {
+        "msg": "Você sabe o nome da sua cidade para que eu possa ajudar a encontrar o contato do Sindicato dos Comerciários? E no processo de cadastro no aplicativo da Caixa para o extrato do FGTS, você tem acesso ao seu CPF e a um e-mail ou telefone para receber códigos de confirmação? Posso também explicar o passo a passo detalhado para facilitar o cadastro, se preferir.",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você precisa de ajuda para encontrar o contato do seu sindicato e para se cadastrar e obter o extrato do FGTS. Como assistente jurídica virtual, minha função é auxiliar em questões legais e identificar se você possui uma causa jurídica válida. Infelizmente, não consigo te ajudar diretamente com a busca de contatos ou com o passo a passo de cadastros em aplicativos. Você gostaria de me apresentar alguma questão jurídica para que eu possa analisar?",
+        "class": "Conversando"
+      }
+    }
+  ]
+}

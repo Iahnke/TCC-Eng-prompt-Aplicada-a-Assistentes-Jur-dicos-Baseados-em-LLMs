@@ -30,71 +30,129 @@ body {
 }
 
 /* =========================
-   PAINEL LATERAL
+   PAINEL LATERAL (SIDEBAR)
    ========================= */
 .token-panel {
   position: fixed;
   left: 0;
   top: 0;
-  width: 230px;
+  width: 260px; /* Largura ajustada */
   height: 100vh;
-  background: linear-gradient(180deg, #0b1220, #050914);
-  padding: 18px;
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border-subtle);
+  padding: 20px;
   color: #fff;
   font-family: 'Inter', sans-serif;
-  box-shadow: inset -1px 0 0 rgba(255,255,255,0.08);
+  
+  /* 🔥 FLEXBOX PARA O SCROLL FUNCIONAR 🔥 */
+  display: flex;
+  flex-direction: column; 
+  box-shadow: inset -1px 0 0 rgba(255,255,255,0.05);
+  z-index: 10;
 }
 
 .panel-section {
-  margin-bottom: 14px;
+  margin-bottom: 20px;
+  flex-shrink: 0; /* Impede que seções importantes encolham */
+}
+
+/* Seção de Runs que deve crescer */
+.runs-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;       /* Ocupa todo o espaço sobrando */
+  min-height: 0; /* Necessário para o scroll funcionar dentro do Flex */
+  overflow: hidden; /* Corta o que passar */
 }
 
 .panel-title {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  opacity: 0.7;
-  margin-bottom: 8px;
+  color: var(--text-soft);
+  margin-bottom: 10px;
 }
 
-/* Linhas simples (Tokens) */
-.panel-line {
-  display: flex;
-  justify-content: space-between;
-  font-size: 14px;
-  padding: 4px 0;
-}
-
-/* Divisor */
-.panel-divider {
-  margin: 12px 0;
-  border-top: 1px solid rgba(255,255,255,0.1);
-}
-
-/* Cabeçalho Runs */
-.panel-header {
-  display: grid;
-  grid-template-columns: 1fr 40px 40px;
-  font-size: 12px;
-  opacity: 0.6;
-  margin-bottom: 4px;
-}
-
-/* Lista de Runs */
+/* Lista com Scroll Automático */
 .runs-list {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  
+  /* 🔥 SCROLL MÁGICO 🔥 */
+  flex: 1;           /* Cresce para ocupar a runs-section */
+  overflow-y: auto;  /* Scroll vertical */
+  padding-right: 5px; /* Espaço para a barra */
 }
 
-/* Linha individual da run */
-.run-line {
-  display: grid;
-  grid-template-columns: 1fr 40px 40px;
-  font-size: 13px;
-  padding: 4px 0;
+/* === ESTILO DA BARRA DE ROLAGEM (SCROLLBAR) === */
+.runs-list::-webkit-scrollbar {
+  width: 6px;
 }
+
+.runs-list::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.1);
+  border-radius: 3px;
+}
+
+.runs-list::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 3px;
+}
+
+.runs-list::-webkit-scrollbar-thumb:hover {
+  background: var(--text-soft);
+}
+
+/* Linhas e Cabeçalhos */
+.panel-header, .run-row {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+  font-size: 0.8rem;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+  text-align: center;
+}
+
+.panel-header {
+  font-weight: 700;
+  color: var(--text-soft);
+  border-bottom: 1px solid var(--border-subtle);
+  margin-bottom: 5px;
+}
+
+.run-row span:nth-child(2) { color: var(--accent-gpt); }
+.run-row span:nth-child(3) { color: var(--accent-gem); }
+
+/* Botão Salvar (Fixo no Fundo) */
+.btn-save {
+  margin-top: auto; /* Empurra para o final se sobrar espaço */
+  width: 100%;
+  padding: 12px;
+  background: rgba(255,255,255,0.05);
+  color: var(--text-main);
+  border: 1px solid var(--border-subtle);
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.btn-save:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: var(--text-soft);
+}
+
+.panel-divider {
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 15px 0;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
 /* ====== MAIN WRAPPER ====== */
 
 .main-wrapper {

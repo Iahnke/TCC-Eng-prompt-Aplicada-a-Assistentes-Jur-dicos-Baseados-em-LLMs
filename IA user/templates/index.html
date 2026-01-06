@@ -6,9 +6,7 @@
   <title>Assistente Jurídico Futurista</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
   <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
 
   <style>
@@ -61,7 +59,7 @@
 
     <div class="panel-divider"></div>
 
-    <div class="panel-section">
+    <div class="panel-section" style="flex: 1; display: flex; flex-direction: column; overflow: hidden; min-height: 0;">
       <div class="panel-title">Runs (Histórico)</div>
       <div class="panel-header">
         <span>#</span>
@@ -73,7 +71,7 @@
 
     <div class="panel-divider"></div>
 
-    <button onclick="salvarConversaServidor()" style="width: 100%; margin-top: 10px; cursor: pointer;">
+    <button class="btn-save" onclick="salvarConversaServidor()">
       💾 Salvar JSON
     </button>
 
@@ -83,8 +81,7 @@
 
     <header class="topbar">
       <div class="brand">
-        <div class="brand-icon"></div>
-        <div class="brand-text">
+        <div class="brand-icon"></div> <div class="brand-text">
           <h1>Assistente Jurídico</h1>
           <p>Comparação Real-Time + Custos</p>
         </div>
@@ -94,7 +91,7 @@
     <div class="chat-area" id="messages"></div>
 
     <div class="input-area">
-      <input id="mensagem" type="text" placeholder="Digite sua mensagem jurídica...">
+      <input id="mensagem" type="text" placeholder="Digite sua mensagem jurídica..." autocomplete="off">
       <button id="enviarBtn" onclick="enviarMensagem()">Enviar</button>
     </div>
 

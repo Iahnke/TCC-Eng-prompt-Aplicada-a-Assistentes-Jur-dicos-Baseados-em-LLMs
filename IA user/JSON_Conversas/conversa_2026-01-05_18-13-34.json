@@ -1,0 +1,43 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:13:00.339426",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você com seu problema jurídico hoje? Por favor, me conte mais detalhes para que eu possa entender melhor a situação.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, poderia me informar quem são as partes envolvidas e o que exatamente aconteceu, em ordem cronológica? Além disso, qual é o problema jurídico que você está enfrentando e qual resultado espera alcançar com nossa ajuda?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para começarmos, poderia me descrever qual é o seu problema jurídico?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:13:14.035288",
+      "loop": 1,
+      "user_simulado": "Olá, sou cliente e meu problema jurídico é o seguinte: Tenho um contrato de prestação de serviço com uma empresa que não cumpriu o combinado. O valor envolvido é de aproximadamente R$ 800. Gostaria de receber o valor pago de volta, pois o serviço não foi entregue conforme o combinado. As partes envolvidas sou eu e a empresa prestadora. O problema aconteceu no último mês, quando fiz o pagamento e até hoje não recebi o serviço. Espero conseguir a restituição do valor pago.",
+      "gpt": {
+        "msg": "Você mencionou que tem um contrato de prestação de serviço com uma empresa que não cumpriu o combinado, e o valor envolvido é de aproximadamente R$ 800. Gostaria de saber se você já tentou algum contato formal com a empresa para solicitar a devolução do valor pago? Além disso, você possui algum documento ou prova do contrato e do pagamento realizado? Poderia me informar mais detalhes sobre isso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado devido ao valor envolvido ser inferior a R$1.000,00. Segue o resumo:\n- *Título do caso*: Quebra de contrato de prestação de serviço.\n- *Valor do caso*: R$ 800,00.\n- *Resumo do caso*: O cliente pagou por um serviço que não foi entregue conforme o combinado no último mês e busca a restituição do valor pago.\n\nVocê tem alguma outra dúvida ou gostaria de discutir outro assunto?",
+        "class": "Desqualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:13:27.870801",
+      "loop": 2,
+      "user_simulado": "Sim, já tentei contato formal com a empresa por e-mail e telefone, mas não obtive resposta até agora. Tenho o contrato assinado e comprovante de pagamento via transferência bancária. Gostaria de saber quais são os próximos passos possíveis para conseguir reaver meu dinheiro, considerando que o valor é inferior a R$ 1.000.",
+      "gpt": {
+        "msg": "Vejo que você tem contrato e comprovante de pagamento, mas o valor do seu caso é inferior a R$ 1.000,00, o que o desqualifica para uma ação judicial aqui. Você já tentou registrar uma reclamação no Procon ou buscar uma mediação para resolver o problema com a empresa?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado devido ao valor envolvido ser inferior a R$1.000,00. Segue o resumo:\n- *Título do caso*: Quebra de contrato de prestação de serviço.\n- *Valor do caso*: R$ 800,00.\n- *Resumo do caso*: O cliente pagou por um serviço que não foi entregue conforme o combinado no último mês e busca a restituição do valor pago.\n\nVocê tem alguma outra dúvida ou gostaria de discutir outro assunto?",
+        "class": "Desqualificado"
+      }
+    }
+  ]
+}

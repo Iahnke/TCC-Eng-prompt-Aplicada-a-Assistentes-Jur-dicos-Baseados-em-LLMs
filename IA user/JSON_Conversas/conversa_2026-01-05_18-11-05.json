@@ -1,0 +1,108 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:08:26.323511",
+      "loop": 0,
+      "user_simulado": "Olá! Em que posso ajudar você hoje? Por favor, me informe qual problema jurídico você está enfrentando para que possamos conversar sobre ele.",
+      "gpt": {
+        "msg": "Para que eu possa ajudar da melhor forma, poderia me contar quem são as partes envolvidas nesse problema e qual foi a sequência dos acontecimentos? Além disso, você já possui algum documento ou prova relacionada a esse caso? E qual é exatamente o problema jurídico que você está enfrentando? Você já tentou alguma solução ou contato com a outra parte? Poderia me informar também se busca algum resultado específico, como indenização ou orientação? Por favor, me conte mais detalhes.",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para que eu possa entender melhor a sua situação, poderia me contar o que aconteceu e quem são as partes envolvidas neste problema?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:08:42.768957",
+      "loop": 1,
+      "user_simulado": "Sou cliente, e estou enfrentando um problema de cobrança indevida por parte de uma empresa de telefonia. Eu sou o consumidor e a empresa é a parte contrária. Recentemente, notei cobranças na minha fatura que não reconheço, em torno de mil e quinhentos reais. Tenho as faturas como prova. Já tentei contato com a empresa via atendimento, mas não resolveram. Busco orientação para resolver a cobrança ou, se for o caso, uma indenização.",
+      "gpt": {
+        "msg": "Para entender melhor o seu caso, gostaria de saber: essas cobranças indevidas começaram em qual mês e há quanto tempo você percebe esse problema? Além disso, você registrou algum protocolo ou recebeu alguma resposta formal da empresa após o contato? Você também tem registrado por escrito os contatos feitos, como protocolos ou e-mails? Já contestou formalmente essas cobranças junto à empresa?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Entendi que você está enfrentando um problema de cobrança indevida de aproximadamente R$1.500,00 por parte de uma empresa de telefonia, e que já tentou resolver diretamente com eles, sem sucesso. Você também mencionou que possui as faturas como prova e busca a resolução da cobrança ou uma indenização. Há mais algum detalhe sobre essas tentativas de contato ou alguma outra informação relevante que eu precise saber?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:08:58.531254",
+      "loop": 2,
+      "user_simulado": "As cobranças indevidas começaram em fevereiro deste ano, e venho percebendo o problema há cerca de quatro meses. Eu registrei protocolos de atendimento em todos os contatos que fiz com a empresa, mas até agora não recebi nenhuma resposta formal satisfatória. Tenho registros escritos de e-mails e protocolos. Já formalizei a contestação das cobranças junto à empresa, mas eles não corrigiram a fatura nem devolveram o valor cobrado indevidamente.",
+      "gpt": {
+        "msg": "Você já tentou alguma outra forma de resolução, como reclamação em órgãos de defesa do consumidor (Procon, por exemplo) ou plataformas online? Além disso, essas cobranças indevidas impactaram algum serviço essencial para você? E você está aberto a tentar um acordo com a empresa, ou prefere buscar uma solução judicial desde já? Qual resultado você considera justo para resolver essa situação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi que as cobranças indevidas começaram em fevereiro, você as notou há quatro meses e possui protocolos e e-mails como prova. A empresa não corrigiu a fatura nem devolveu o valor. Para que eu possa entender melhor, qual seria o seu pedido em relação a essa situação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:09:23.399034",
+      "loop": 3,
+      "user_simulado": "Já registrei reclamações no Procon e em plataformas como Reclame Aqui, mas não obtive solução. As cobranças indevidas não afetaram serviços essenciais, mas causaram prejuízo financeiro considerável. Prefiro buscar uma solução judicial para garantir a devolução do valor cobrado indevidamente e uma indenização pelos transtornos causados. Meu pedido é a restituição dos aproximadamente R$1.500,00 cobrados indevidamente, correção das faturas, e uma indenização justa pelo dano moral e material sofrido.",
+      "gpt": {
+        "msg": "Você já registrou reclamações no Procon e Reclame Aqui, e busca a restituição de R$1.500,00 por cobranças indevidas, além de indenização por danos morais e materiais. Para avançarmos, poderia confirmar se você tem os documentos como protocolos, e-mails e faturas que comprovem essas cobranças e os prejuízos? Também gostaria de saber se há testemunhas que possam confirmar os transtornos causados. Você pode reunir essas provas facilmente?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo novamente sua situação e o desejo de buscar uma solução judicial.\n\nPara darmos andamento, você possui as faturas com as cobranças indevidas e os comprovantes de pagamento que mostram o prejuízo financeiro? Além disso, você tem os protocolos e as cópias das reclamações que fez no Procon e Reclame Aqui?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:09:49.747297",
+      "loop": 4,
+      "user_simulado": "Confirmo que possuo todos os documentos necessários: faturas com as cobranças indevidas, comprovantes de pagamento, protocolos dos atendimentos, e-mails, além das cópias das reclamações feitas no Procon e Reclame Aqui. Não tenho testemunhas específicas, mas todas as provas documentais estão organizadas e podem ser reunidas facilmente para prosseguir com a ação judicial.",
+      "gpt": {
+        "msg": "Você mencionou que possui documentos organizados, incluindo reclamações feitas no Procon e Reclame Aqui, além de faturas e comprovantes. Para garantir que entendi tudo, você tem algum documento que comprove tentativas de contato direto com a empresa e a negativa ou falta de solução? Além disso, esses documentos estão em formato digital ou físico? Poderia me informar também o período em que ocorreram essas cobranças indevidas?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendido! Agradeço por detalhar os documentos que possui. Com essas informações, podemos avançar. Para que eu possa fazer uma análise mais precisa, poderia me informar o valor aproximado das cobranças indevidas?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:10:05.222049",
+      "loop": 5,
+      "user_simulado": "Sim, possuo documentos que comprovam as tentativas de contato direto com a empresa, bem como a falta de solução por parte deles. Esses documentos estão em formato digital e físico. As cobranças indevidas ocorreram no período de fevereiro a maio deste ano. O valor aproximado das cobranças indevidas é de R$1.500,00.",
+      "gpt": {
+        "msg": "Você mencionou que as cobranças indevidas ocorreram entre fevereiro e maio. Essas cobranças foram constantes em todas as faturas desse período? Além disso, você já recebeu alguma resposta formal da empresa sobre essas cobranças? Você também tentou algum acordo formal com a empresa, como proposta de reembolso ou compensação? Está buscando apenas a devolução do valor cobrado ou também uma indenização por danos morais?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi que você tem os documentos e o período das cobranças. Para seguirmos, você chegou a tentar algum acordo formal com a empresa para resolver isso? E você busca apenas a devolução do valor ou também uma indenização por danos morais?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:10:17.288285",
+      "loop": 6,
+      "user_simulado": "As cobranças indevidas foram constantes em todas as faturas entre fevereiro e maio. Não recebi nenhuma resposta formal da empresa até o momento. Tentei contato para acordo formal, mas não obtive nenhuma proposta concreta de reembolso ou compensação. Busco tanto a devolução do valor cobrado indevidamente quanto uma indenização justa por danos morais e materiais causados.",
+      "gpt": {
+        "msg": "Você mencionou cobranças indevidas entre fevereiro e maio e a falta de resposta da empresa. Além dessas cobranças, você sofreu algum prejuízo material ou emocional que possa detalhar? Qual é o seu objetivo principal com essa ação: recuperar o valor, obter indenização, ou ambos? Você está aberto a uma negociação amigável ou prefere seguir diretamente para a ação judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que possamos analisar melhor o seu caso, você possui algum comprovante das cobranças indevidas, como faturas ou extratos, e das tentativas de contato com a empresa?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:10:58.704535",
+      "loop": 7,
+      "user_simulado": "Sim, possuo todas as faturas, extratos e comprovantes de pagamento que mostram as cobranças indevidas, assim como documentos que comprovam minhas tentativas de contato com a empresa. Sofri prejuízo material pelo valor cobrado indevidamente e também transtornos emocionais. Meu objetivo é recuperar o valor e obter uma indenização justa. Estou disposto a negociar, mas, caso não haja acordo, prefiro seguir com a ação judicial.",
+      "gpt": {
+        "msg": "Você possui documentos que comprovam as cobranças indevidas, tentativas de contato com a empresa, e sofreu prejuízo material e emocional. O objetivo é recuperar o valor cobrado indevidamente e obter uma indenização justa, estando aberto a negociação ou ação judicial. Para avançarmos, poderia informar o nome da empresa envolvida e o valor total que deseja recuperar? Além disso, qual seria um valor justo para a indenização na sua opinião?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Titulo do caso*: Cobrança Indevida e Danos;\n- *Valor do caso*: Não especificado, mas inferido como acima de R$1.000,00 para fins de qualificação;\n- *Resumo do caso*: O cliente relata ter sofrido cobranças indevidas, resultando em prejuízos materiais e transtornos emocionais. Possui faturas, extratos, comprovantes de pagamento e registros de tentativas de contato como material probatório. O objetivo é recuperar os valores cobrados indevidamente e obter uma indenização justa, estando disposto a negociar ou, se necessário, seguir com ação judicial.\nPodemos prosseguir com a análise detalhada do seu caso?",
+        "class": "Qualificado"
+      }
+    }
+  ]
+}

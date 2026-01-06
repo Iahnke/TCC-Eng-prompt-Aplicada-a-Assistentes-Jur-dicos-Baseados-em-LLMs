@@ -1,0 +1,173 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:26:14.996888",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você com seu problema jurídico hoje? Por favor, forneça detalhes sobre sua situação para que eu possa entender melhor.",
+      "gpt": {
+        "msg": "Olá! Para que eu possa ajudar melhor, poderia me contar o que aconteceu, passo a passo, desde o início do problema? E qual foi a reação da outra parte envolvida até agora?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Entendi que você precisa de ajuda com um problema jurídico. Por favor, me conte em detalhes o que aconteceu. Qual é a sua principal preocupação ou o que você busca resolver?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:26:39.131419",
+      "loop": 1,
+      "user_simulado": "Olá, eu comprei um imóvel que estava com dívidas de condomínio não informadas no contrato. Tentei negociar com o antigo proprietário, mas ele se negou a pagar. Agora o condomínio está me cobrando essas dívidas. Minha principal preocupação é como proceder para resolver essa dívida sem prejudicar meu nome e conseguir reverter essa situação.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso: quando exatamente você comprou o imóvel e qual era o valor aproximado dessas dívidas de condomínio? Você tem o contrato de compra e venda e já verificou se há cláusulas sobre dívidas anteriores? Também gostaria de saber se você tem documentos ou provas das tentativas de negociação com o antigo proprietário, como mensagens ou e-mails. Você poderia me informar sobre esses pontos?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Compreendo sua preocupação e a importância de resolver essa situação. Para que eu possa ajudar a organizar os fatos, poderia me informar a data exata da compra do imóvel e o valor total das dívidas de condomínio que estão sendo cobradas?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:26:54.989956",
+      "loop": 2,
+      "user_simulado": "Comprei o imóvel em 15 de janeiro de 2023. As dívidas de condomínio somam cerca de R$ 8.000,00. Tenho o contrato de compra e venda, que não menciona dívidas anteriores, e também tenho e-mails demonstrando minha tentativa de negociação com o antigo proprietário, que ele recusou.",
+      "gpt": {
+        "msg": "O condomínio já entrou com alguma notificação formal ou ação judicial contra você? E você chegou a consultar um advogado antes de tentar negociar com o antigo proprietário? Além disso, você já entrou em contato com o condomínio para informar a situação e tentar um acordo diretamente com eles? Você estaria aberto a uma negociação para parcelar essa dívida, caso seja necessário?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Agradeço por confirmar as datas e valores novamente. Para prosseguirmos, é crucial saber se o condomínio já enviou alguma notificação formal ou iniciou uma ação judicial contra você. Além disso, você chegou a consultar um advogado antes de tentar negociar com o antigo proprietário?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:27:08.687142",
+      "loop": 3,
+      "user_simulado": "Até o momento, o condomínio ainda não enviou nenhuma notificação formal nem iniciou ação judicial. Eu não consultei um advogado antes de tentar negociar com o antigo proprietário. Eu ainda não falei diretamente com o condomínio para informar a situação ou tentar um acordo, mas estou aberto à possibilidade de parcelar a dívida se for necessário.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, você poderia me informar se o antigo proprietário assinou algum documento que o responsabilize pelas dívidas anteriores? Além disso, o contrato de compra menciona alguma cláusula sobre dívidas anteriores ou responsabilidades pós-venda? Você tem interesse em tentar um acordo direto com o condomínio para parcelar essa dívida e evitar problemas futuros? E por fim, possui alguma garantia documental que comprove que as dívidas anteriores não foram informadas no contrato?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a situação. Para que eu possa te ajudar da melhor forma, você saberia me informar o valor aproximado dessa dívida de condomínio?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:27:21.705258",
+      "loop": 4,
+      "user_simulado": "O antigo proprietário não assinou nenhum documento se responsabilizando pelas dívidas anteriores. No contrato de compra e venda não há cláusulas sobre dívidas anteriores ou responsabilidades pós-venda. Sim, tenho interesse em tentar um acordo direto com o condomínio para parcelar a dívida. Também tenho documentos que comprovam que as dívidas anteriores não foram informadas no contrato.",
+      "gpt": {
+        "msg": "Você já tentou formalizar sua proposta de acordo por escrito ao condomínio? Além disso, você já notificou o antigo proprietário por meio de alguma notificação extrajudicial? Você tem interesse em buscar uma solução judicial caso o acordo com o condomínio não seja possível?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendido. Para que eu possa analisar melhor o seu caso, você teria mais algum detalhe sobre a situação ou alguma outra solicitação específica em mente, além do acordo com o condomínio?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:27:36.339350",
+      "loop": 5,
+      "user_simulado": "Ainda não formalizei a proposta de acordo por escrito ao condomínio, e também não enviei notificação extrajudicial ao antigo proprietário. Sim, tenho interesse em avaliar uma solução judicial caso o acordo com o condomínio não seja possível. Não tenho outras solicitações específicas no momento, apenas quero resolver esta situação da melhor forma possível.",
+      "gpt": {
+        "msg": "Você possui alguma prova, como mensagens ou e-mails, que demonstrem a recusa do antigo proprietário em negociar a dívida? Além disso, já verificou se há alguma cláusula no contrato que possa ajudar a responsabilizar o antigo proprietário? Também gostaria de saber se você tem alguma preferência quanto ao prazo para resolver essa questão, seja via acordo ou judicial, e se está aberto a ceder em algum ponto para facilitar um acordo?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você ainda não formalizou a proposta ao condomínio nem enviou notificação ao antigo proprietário, e que busca uma solução. Para seguirmos, por favor, poderia me informar se você possui alguma prova, como mensagens ou e-mails, da recusa do antigo proprietário em negociar a dívida? E, você já verificou se o contrato de compra e venda contém alguma cláusula que possa responsabilizá-lo?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:27:59.124331",
+      "loop": 6,
+      "user_simulado": "Sim, possuo vários e-mails que mostram a recusa do antigo proprietário em negociar a dívida. No contrato de compra e venda não existe nenhuma cláusula que o responsabilize pelas dívidas anteriores. Gostaria de resolver essa questão o mais rápido possível, preferencialmente por acordo, e estou aberto a ceder em alguns pontos para facilitar a negociação.",
+      "gpt": {
+        "msg": "Você mencionou que possui e-mails que mostram a recusa do antigo proprietário em negociar a dívida e que no contrato não há cláusula que o responsabilize pelas dívidas anteriores. Para avançarmos, poderia me informar qual o valor total da dívida atual com o condomínio? Além disso, houve alguma tentativa anterior de negociação direta com o condomínio ou com o antigo proprietário? Qual seria a sua proposta inicial para facilitar um acordo?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você tem os e-mails sobre o antigo proprietário e busca um acordo.\n\nPara avançarmos, qual é o valor total da dívida que o condomínio está cobrando de você? E, você já tentou negociar diretamente com o condomínio sobre essa dívida?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:28:18.614121",
+      "loop": 7,
+      "user_simulado": "O valor total da dívida atual com o condomínio é de R$ 12.000,00. Ainda não tentei negociar diretamente com o condomínio, apenas busquei acordo com o antigo proprietário. Minha proposta inicial para facilitar o acordo seria o parcelamento dessa dívida em até 12 vezes.",
+      "gpt": {
+        "msg": "Você tem e-mails com a recusa do antigo proprietário e o contrato sem cláusula sobre dívidas anteriores, correto? Além disso, você mencionou a dívida de R$ 12.000,00 e a proposta de parcelamento em 12 vezes. Você já recebeu alguma notificação formal do condomínio sobre essa dívida? E tem como reunir esses documentos para análise? Poderia me informar mais detalhes sobre essas notificações?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendido que a dívida é de R$ 12.000,00 e sua proposta de parcelamento.\n\nVocê já recebeu alguma notificação formal do condomínio sobre essa dívida? E, sabe dizer a qual período essas dívidas se referem, ou seja, quando elas começaram a ser cobradas?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:28:45.408731",
+      "loop": 8,
+      "user_simulado": "Sim, já recebi notificações formais do condomínio cobrando essa dívida. As notificações são recentes, mas a dívida refere-se a períodos anteriores à compra do imóvel, desde o último ano do antigo proprietário. Tenho todos esses documentos organizados para análise.",
+      "gpt": {
+        "msg": "Você mencionou que tem as notificações e documentos organizados sobre a dívida do antigo proprietário do imóvel. Para entender melhor o seu caso, poderia me informar quando exatamente você comprou o imóvel? Além disso, essa dívida foi informada no momento da compra ou você só descobriu depois? Você já tentou negociar diretamente com o condomínio para parcelar ou contestar essa dívida? E qual a sua preferência: buscar um acordo amigável ou resolver judicialmente?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi. Para que eu possa analisar melhor a sua situação, você poderia me informar o valor total aproximado dessa dívida de condomínio?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:29:00.117277",
+      "loop": 9,
+      "user_simulado": "Comprei o imóvel há cerca de 8 meses. A dívida do condomínio não foi informada no momento da compra, só descobri após receber as notificações. Ainda não tentei negociar diretamente com o condomínio para contestar ou parcelar a dívida. Minha preferência é tentar buscar um acordo amigável primeiro, para resolver a questão de forma mais rápida e menos burocrática.",
+      "gpt": {
+        "msg": "Você possui o contrato de compra e venda do imóvel para verificar se há cláusulas sobre dívidas anteriores? Além disso, já conversou com o antigo proprietário sobre essa dívida do condomínio? Você já consultou um advogado sobre essa questão ou tem interesse em que o contrato seja avaliado para identificar possíveis falhas na informação da dívida?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo sua preferência por um acordo amigável.\n\nPara seguirmos, você possui o contrato de compra e venda do imóvel? E, já conseguiu conversar com o antigo proprietário sobre essa dívida?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:29:19.474697",
+      "loop": 10,
+      "user_simulado": "Sim, possuo o contrato de compra e venda do imóvel e nele não consta nenhuma responsabilidade minha sobre dívidas anteriores. Conversei com o antigo proprietário e ele recusou-se a negociar ou assumir a dívida do condomínio. Ainda não consultei um advogado, mas gostaria que o contrato fosse avaliado para identificar possíveis falhas na informação da dívida e para que possamos avançar com uma estratégia para o acordo.",
+      "gpt": {
+        "msg": "Você tem o contrato que exclui sua responsabilidade e o antigo dono não quer negociar. Você possui documentos como notificações, boletos ou e-mails do condomínio sobre essa dívida? E tem testemunhas que possam confirmar sua versão dos fatos?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendido! Você possui o contrato de compra e venda do imóvel e o antigo proprietário se recusa a negociar a dívida do condomínio. Você gostaria que avaliássemos o contrato para identificar possíveis falhas e traçar uma estratégia. Além do contrato de compra e venda, você possui algum outro documento relacionado à compra do imóvel ou à dívida do condomínio?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:29:44.875290",
+      "loop": 11,
+      "user_simulado": "Sim, tenho todas as notificações, boletos e alguns e-mails do condomínio relacionados à dívida. Não tenho testemunhas diretas, mas posso coletar declarações de vizinhos que presenciaram a situação. Além do contrato de compra e venda, não possuo outros documentos específicos sobre a compra ou a dívida até o momento.",
+      "gpt": {
+        "msg": "Você tem notificações, e-mails e o contrato, além da possibilidade de coletar declarações de vizinhos. Para entender melhor seu caso: houve alguma comunicação formal sua ao condomínio contestando a dívida? O condomínio já tomou alguma medida judicial ou administrativa contra você? E o contrato menciona alguma cláusula sobre responsabilidade por dívidas anteriores? Você já verificou se a dívida está registrada em seu nome em cartórios ou órgãos de proteção ao crédito?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você já possui as notificações, boletos, e-mails do condomínio e o contrato de compra e venda.\n\nVocê já formalizou alguma contestação por escrito ao condomínio sobre essa dívida? E o condomínio já tomou alguma medida judicial ou administrativa contra você?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:30:01.600822",
+      "loop": 12,
+      "user_simulado": "Ainda não formalizei nenhuma contestação por escrito ao condomínio. Até o momento, o condomínio não tomou nenhuma medida judicial ou administrativa contra mim. No contrato, não há cláusula que me responsabilize pelas dívidas anteriores. Também ainda não verifiquei se a dívida está registrada em meu nome em cartórios ou órgãos de proteção ao crédito.",
+      "gpt": {
+        "msg": "Você mencionou que ainda não formalizou contestação e que não há cláusula no contrato sobre dívidas anteriores. Quando ocorreu a compra do imóvel e quando você recebeu a primeira notificação da dívida? Além disso, qual foi o valor aproximado dessa dívida? Você gostaria de tentar um acordo com o condomínio para parcelar ou quitar essa dívida? E pretende verificar o registro da dívida em seu nome nos órgãos de proteção ao crédito?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você ainda não formalizou a contestação e que o contrato não te responsabiliza por dívidas anteriores.\n\nPara seguirmos, preciso saber: quando você comprou o imóvel e quando recebeu a primeira notificação sobre essa dívida? E qual o valor aproximado dessa dívida?",
+        "class": "Conversando"
+      }
+    }
+  ]
+}

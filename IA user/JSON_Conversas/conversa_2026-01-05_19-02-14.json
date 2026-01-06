@@ -1,0 +1,173 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:58:22.401388",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você com seu problema jurídico? Por favor, me diga um pouco sobre a sua situação para que eu possa entender melhor e fornecer a orientação adequada.",
+      "gpt": {
+        "msg": "Para começar, poderia me informar quem são as partes envolvidas no seu caso e o que aconteceu, detalhando os fatos na ordem em que ocorreram? Isso vai ajudar a entender melhor a situação. Qual a sua versão dos fatos?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Sou a Juliana, assistente jurídica virtual da Processar Online. Para que eu possa te ajudar da melhor forma, por favor, me conte qual é a sua questão jurídica. Posso te ouvir por texto ou áudio, como preferir. Qual é a sua dúvida?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:58:40.063815",
+      "loop": 1,
+      "user_simulado": "Olá, Juliana. Sou cliente em um problema de cobrança indevida. Comprei um aparelho eletrônico em uma loja e o valor cobrado foi maior do que o anunciado. Tentei resolver diretamente com a loja, mas não obtive sucesso. Preciso de ajuda para entender meus direitos e quais medidas posso tomar para reaver o valor cobrado a mais, que é superior a mil reais.",
+      "gpt": {
+        "msg": "Você poderia me informar quando exatamente realizou essa compra e em qual loja? Além disso, tem algum comprovante da compra e da diferença de valor cobrada? Também gostaria de saber se já formalizou alguma reclamação por escrito, como e-mail ou protocolo, junto à loja. Poderia me contar mais sobre isso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá, Juliana. Agradeço por compartilhar novamente os detalhes. Para que eu possa entender melhor, poderia me informar a data exata da compra e o nome da loja onde adquiriu o aparelho?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:58:52.971758",
+      "loop": 2,
+      "user_simulado": "Realizei a compra no dia 10 de março de 2024, na loja EletrônicosBrasil. Tenho o comprovante da compra e uma captura de tela do anúncio com o valor correto. Já enviei um e-mail à loja solicitando o estorno da diferença, mas não obtive resposta até o momento.",
+      "gpt": {
+        "msg": "Você chegou a receber algum protocolo ou confirmação do e-mail enviado para a loja? A loja deu alguma justificativa ou fez contraproposta sobre a cobrança maior? Além disso, você está aberta a tentar um acordo amigável ou prefere buscar outras medidas legais diretamente?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Agradeço as informações detalhadas. Para que eu possa entender completamente a situação, poderia me dizer qual foi o valor que você pagou e qual era o valor anunciado? Além disso, qual seria o seu pedido em relação a este caso?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:59:10.804955",
+      "loop": 3,
+      "user_simulado": "Não recebi nenhum protocolo ou confirmação do e-mail enviado, e a loja não deu nenhuma justificativa ou contraproposta. Eu paguei R$1.500,00, enquanto o valor anunciado era R$1.200,00. Meu pedido é o estorno da diferença de R$300,00 e, se possível, a reparação por danos morais pela cobrança indevida.",
+      "gpt": {
+        "msg": "Você tentou contato por telefone ou presencialmente na loja para resolver essa questão? Além do valor pago, houve algum outro prejuízo ou transtorno causado por essa cobrança indevida? E quanto à reparação por danos morais, você já pensou em um valor justo ou gostaria de tentar uma mediação antes de considerar uma ação judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo, Juliana. Para entender melhor o impacto, você chegou a tentar contato com a loja por telefone ou presencialmente? Além disso, essa situação lhe causou algum outro tipo de transtorno ou prejuízo, além da cobrança indevida?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:59:30.857084",
+      "loop": 4,
+      "user_simulado": "Sim, tentei contato por telefone algumas vezes, mas não obtive retorno. Também passei na loja pessoalmente, mas não consegui resolver. Além da cobrança indevida, fiquei muito frustrada e estressada por todo o transtorno. Gostaria de buscar uma mediação para tentar resolver amigavelmente, mas também penso em um valor de R$1.000,00 para reparação por danos morais, caso seja necessário avançar com ação judicial.",
+      "gpt": {
+        "msg": "Você tem algum documento ou registro das tentativas de contato por telefone e presencial? Além disso, essa compra foi feita para uso pessoal ou para alguma atividade profissional? E você possui algum registro que comprove o estresse e a frustração causados, como mensagens ou testemunhas? Poderia me informar mais sobre isso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua frustração, Juliana. Para seguirmos, você possui algum registro específico dessas tentativas de contato, como protocolos, e-mails enviados ou anotações detalhadas? E qual o nome da loja e a data exata em que a compra foi realizada?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:59:47.330800",
+      "loop": 5,
+      "user_simulado": "Tenho os e-mails enviados para a loja guardados e anotações detalhadas das minhas tentativas de contato por telefone. A compra foi feita para uso pessoal. Quanto ao estresse, tenho conversas com familiares que atestam minha frustração, porém não documentos formais. A compra foi feita na loja EletrônicosBrasil em 10 de março de 2024.",
+      "gpt": {
+        "msg": "Você já tentou registrar uma reclamação formal em algum órgão de defesa do consumidor, como o Procon? A loja enviou alguma nota fiscal ou comprovante detalhado da compra com o valor cobrado? Além disso, você já considerou a possibilidade de entrar com uma ação judicial caso a mediação não funcione? Poderia me informar mais sobre isso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendido, Juliana. É importante ter esses registros. Você chegou a formalizar uma reclamação em órgãos como o Procon? E você possui a nota fiscal ou algum comprovante detalhado da compra que mostre o valor cobrado?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T19:00:05.005362",
+      "loop": 6,
+      "user_simulado": "Ainda não formalizei reclamação no Procon, mas pretendo fazer em breve. Tenho a nota fiscal e o comprovante detalhado da compra com o valor cobrado. Sobre ação judicial, gostaria de tentar mediação antes, mas estou aberta a avançar legalmente se necessário.",
+      "gpt": {
+        "msg": "Você já tentou contato direto com a loja para solicitar a mediação? Além disso, pretende formalizar a reclamação no Procon antes de avançar? Você tem os documentos como nota fiscal, comprovante e alguma troca de mensagens que possam ajudar? Poderia detalhar qual foi o problema com a compra, por exemplo, produto com defeito ou atraso na entrega?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi que você já tem a nota fiscal e o comprovante de compra, e que pretende acionar o Procon. Qual foi exatamente o problema que você enfrentou com a compra?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T19:00:38.808086",
+      "loop": 7,
+      "user_simulado": "Já tentei contato direto com a loja para pedir mediação, sem sucesso. Pretendo formalizar a reclamação no Procon antes de avançar legalmente. Tenho todos os documentos: nota fiscal, comprovante e troca de mensagens por e-mail. O problema foi a cobrança indevida de R$300,00 a mais pelo produto, que não estava anunciado nesse valor.",
+      "gpt": {
+        "msg": "Juliana, entendi que você foi cobrada indevidamente em R$300,00 a mais por um produto, tentou contato com a loja sem sucesso, possui nota fiscal, comprovante e troca de mensagens por e-mail, e pretende formalizar reclamação no Procon antes de avançar legalmente. Você já recebeu alguma resposta formal da loja? Além disso, gostaria de saber se pretende buscar indenização por danos morais além do ressarcimento do valor cobrado indevidamente?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Juliana, agradeço por compartilhar os detalhes iniciais. Para que eu possa entender a fundo o ocorrido, poderia me informar qual foi a forma de pagamento utilizada e há quanto tempo essa compra foi realizada?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T19:00:57.858754",
+      "loop": 8,
+      "user_simulado": "A forma de pagamento foi cartão de crédito e a compra foi realizada em 10 de março de 2024, portanto há cerca de pouco mais de um mês. Não recebi resposta formal da loja até o momento. Pretendo sim buscar indenização por danos morais além do ressarcimento do valor cobrado indevidamente.",
+      "gpt": {
+        "msg": "Juliana, entendi que você foi cobrada indevidamente em R$300,00 a mais por um produto, tentou contato com a loja sem sucesso, possui nota fiscal, comprovante e troca de mensagens por e-mail, e pretende formalizar reclamação no Procon antes de avançar legalmente. Você já recebeu alguma resposta formal da loja? Além disso, gostaria de saber se pretende buscar indenização por danos morais além do ressarcimento do valor cobrado indevidamente?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Agradeço as informações detalhadas sobre a forma de pagamento, a data da compra e a falta de resposta da loja. Entendi que você busca indenização por danos morais e o ressarcimento do valor cobrado indevidamente. Há mais algum detalhe sobre a compra ou sobre suas tentativas de contato com a loja que você gostaria de adicionar?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T19:01:10.330732",
+      "loop": 9,
+      "user_simulado": "Não recebi nenhuma resposta formal da loja até agora. Quanto aos danos morais, sim, gostaria de buscar essa indenização porque a cobrança indevida me causou grande estresse e desconforto, afetando meu dia a dia. Além disso, minhas tentativas de contato, tanto por telefone quanto por e-mail, foram ignoradas, o que aumentou minha frustração. Não tenho mais detalhes além disso no momento.",
+      "gpt": {
+        "msg": "Juliana, entendi que você foi cobrada indevidamente em R$300,00 a mais por um produto, tentou contato com a loja sem sucesso, possui nota fiscal, comprovante e troca de mensagens por e-mail, e pretende formalizar reclamação no Procon antes de avançar legalmente. Você já recebeu alguma resposta formal da loja? Além disso, gostaria de saber se pretende buscar indenização por danos morais além do ressarcimento do valor cobrado indevidamente?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Compreendo perfeitamente a sua situação e o transtorno que isso lhe causou. Para que eu possa analisar melhor o seu caso, você possui algum comprovante da cobrança indevida, dos seus contatos com a loja (e-mails, protocolos de ligação) ou de algum outro documento que possa nos ajudar a entender o ocorrido?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T19:01:30.334875",
+      "loop": 10,
+      "user_simulado": "Sim, tenho todos esses documentos: nota fiscal, comprovantes da cobrança indevida, e-mails trocados e protocolos de ligações feitas à loja. Posso enviar tudo para análise. Preciso de orientação sobre os próximos passos para formalizar a reclamação no Procon e, se necessário, iniciar ação judicial.",
+      "gpt": {
+        "msg": "Juliana, entendi que você foi cobrada indevidamente em R$300,00 a mais por um produto, tentou contato com a loja sem sucesso, possui nota fiscal, comprovante e troca de mensagens por e-mail, e pretende formalizar reclamação no Procon antes de avançar legalmente. Você já recebeu alguma resposta formal da loja? Além disso, gostaria de saber se pretende buscar indenização por danos morais além do ressarcimento do valor cobrado indevidamente?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Compreendo que você já possui a nota fiscal, comprovantes da cobrança indevida, e-mails trocados e protocolos de ligações. Isso é um excelente ponto de partida para a análise do seu caso.\n\nVocê já chegou a registrar a reclamação no Procon, ou ainda não? E qual sua preferência: tentar resolver administrativamente primeiro ou já iniciar uma ação judicial?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T19:01:41.908536",
+      "loop": 11,
+      "user_simulado": "Ainda não registrei a reclamação no Procon. Minha preferência é tentar resolver administrativamente primeiro, mas estou pronta para iniciar uma ação judicial caso não haja solução por essa via.",
+      "gpt": {
+        "msg": "Juliana, entendi que você foi cobrada indevidamente em R$300,00 a mais por um produto, tentou contato com a loja sem sucesso, possui nota fiscal, comprovante e troca de mensagens por e-mail, e pretende formalizar reclamação no Procon antes de avançar legalmente. Você já recebeu alguma resposta formal da loja? Além disso, gostaria de saber se pretende buscar indenização por danos morais além do ressarcimento do valor cobrado indevidamente?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Entendido! É uma boa estratégia tentar a resolução administrativa antes de partir para a via judicial. Você já iniciou alguma tentativa de contato ou negociação com a outra parte?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T19:02:00.084280",
+      "loop": 12,
+      "user_simulado": "Ainda não recebi nenhuma resposta formal da loja e não houve negociação, pois eles sequer reconheceram o problema. Estou pronta para registrar a reclamação no Procon e esperar a resposta antes de qualquer ação judicial.",
+      "gpt": {
+        "msg": "Juliana, entendi que você foi cobrada indevidamente em R$300,00 a mais por um produto, tentou contato com a loja sem sucesso, possui nota fiscal, comprovante e troca de mensagens por e-mail, e pretende formalizar reclamação no Procon antes de avançar legalmente. Você já recebeu alguma resposta formal da loja? Além disso, gostaria de saber se pretende buscar indenização por danos morais além do ressarcimento do valor cobrado indevidamente?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Compreendo. Para que eu possa entender melhor os fatos, preciso saber: desde quando essa cobrança indevida está ocorrendo e qual o valor total já cobrado até o momento? Poderia, por favor, me informar esses detalhes?",
+        "class": "Conversando"
+      }
+    }
+  ]
+}

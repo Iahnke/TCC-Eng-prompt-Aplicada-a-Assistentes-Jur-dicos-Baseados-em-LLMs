@@ -1,0 +1,173 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:15:52.646875",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudá-lo hoje com sua questão jurídica? Por favor, me forneça detalhes sobre seu problema para que eu possa entender melhor e auxiliá-lo.",
+      "gpt": {
+        "msg": "Para que eu possa entender melhor e ajudar no seu caso, poderia me contar o que aconteceu, passo a passo? Além disso, qual é o problema jurídico que você está enfrentando e quem está envolvido? Já tentou alguma solução ou contato com a outra parte?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Sou a Juliana, assistente jurídica virtual da Processar Online. Para que eu possa entender melhor sua situação e te ajudar da melhor forma, poderia me contar qual é o seu problema jurídico?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:16:04.913413",
+      "loop": 1,
+      "user_simulado": "Olá, estou enfrentando um problema trabalhista. Fui demitido sem justa causa e a empresa não está cumprindo com o pagamento das verbas rescisórias corretamente. Já tentei contato com o RH, mas não tive retorno. Preciso de ajuda para entender meus direitos e como proceder.",
+      "gpt": {
+        "msg": "Para que eu possa ajudar melhor, poderia me informar quando exatamente você foi demitido e quais verbas rescisórias a empresa deixou de pagar? Além disso, você possui algum documento, como o termo de rescisão ou comprovantes de pagamento?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa te ajudar da melhor forma, poderia me dar mais detalhes sobre o ocorrido? Por exemplo, qual era a sua função na empresa, há quanto tempo você trabalhava lá e quais verbas rescisórias não foram pagas?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:16:17.950843",
+      "loop": 2,
+      "user_simulado": "Fui demitido em 10 de março de 2024. Eu trabalhava como analista administrativo por 5 anos. A empresa não pagou o aviso prévio, férias proporcionais e 13º salário. Tenho o termo de rescisão e alguns comprovantes de pagamentos anteriores.",
+      "gpt": {
+        "msg": "O termo de rescisão está assinado por você e pela empresa? Você já consultou algum sindicato ou órgão trabalhista sobre seu caso? Além disso, você já tentou formalizar uma reclamação por escrito à empresa ou buscar algum órgão, como o sindicato ou Ministério do Trabalho? Está aberto a tentar um acordo amigável ou prefere seguir direto para uma ação judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi os fatos sobre sua demissão e a falta de pagamento das verbas rescisórias. Você já tentou algum contato com a empresa para resolver essa situação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:16:43.121256",
+      "loop": 3,
+      "user_simulado": "Sim, o termo de rescisão está assinado por mim e pela empresa. Eu tentei entrar em contato com a empresa por e-mail e por telefone, mas não obtive resposta. Ainda não procurei o sindicato nem formalizei uma reclamação escrita, pois quero entender melhor quais os próximos passos. Prefiro tentar primeiro um acordo amigável, mas estou disposto a entrar com ação judicial se não houver solução.",
+      "gpt": {
+        "msg": "Você mencionou que o termo de rescisão está assinado e que tentou contato com a empresa sem sucesso, buscando um acordo amigável antes de ação judicial. Para entender melhor seu caso, você tem provas dos contatos feitos, como e-mails ou mensagens? Além disso, sabe se a empresa tem histórico de atrasos nos pagamentos? Também gostaria de saber se possui documentos que comprovem os valores devidos, como holerites, e se já recebeu alguma orientação do sindicato ou advogado sobre prazos para reivindicar esses direitos. Poderia me informar essas questões?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Prezado(a), entendi que o termo está assinado e você tentou contato. Para avançarmos, preciso saber: você tem provas desses contatos (e-mails, mensagens)? E qual o valor aproximado das verbas que a empresa deve a você?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:17:07.143729",
+      "loop": 4,
+      "user_simulado": "Tenho e-mails e mensagens que comprovam minhas tentativas de contato com o RH. A empresa já teve atrasos em pagamentos anteriores, mas não tão graves quanto agora. Tenho os holerites e documentos que comprovam as verbas rescisórias devidas, que somam aproximadamente R$ 8.000,00. Ainda não consultei o sindicato nem um advogado, pois queria primeiro entender o que fazer.",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Entendi que você tem as provas e o valor devido. Você já considerou formalizar essa reclamação junto ao sindicato da sua categoria? E qual seria o prazo ideal para você receber esses R$ 8.000,00?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:17:25.109113",
+      "loop": 5,
+      "user_simulado": "Sim, vou formalizar uma reclamação junto ao sindicato da minha categoria. Gostaria de receber os R$ 8.000,00 em até 60 dias, se possível. Enquanto isso, poderia me orientar sobre os passos para entrar com uma ação judicial caso o sindicato não consiga resolver?",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Entendi que você vai formalizar uma reclamação junto ao sindicato e gostaria de receber R$ 8.000,00 em até 60 dias. Você já organizou todos os documentos que comprovam o vínculo empregatício e as verbas devidas? E o atraso no pagamento causou algum prejuízo financeiro ou moral adicional que você queira relatar?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:17:39.187886",
+      "loop": 6,
+      "user_simulado": "Sim, organizei todos os documentos que comprovam meu vínculo e os valores devidos. O atraso tem me causado dificuldades financeiras, pois dependo dessas verbas para pagar minhas contas básicas. Gostaria de saber quais os passos iniciais para formalizar uma ação judicial caso o sindicato não consiga resolver meu caso dentro do prazo desejado.",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Entendi que você já organizou os documentos e que o atraso nas verbas está causando dificuldades financeiras. Para que eu possa entender melhor a sua situação, poderia me detalhar qual é a origem dessas verbas e qual o tipo de vínculo que você possui?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:17:52.202392",
+      "loop": 7,
+      "user_simulado": "As verbas rescisórias são referentes a um contrato de trabalho formal sob regime CLT, incluindo saldo de salário, férias proporcionais, 13º salário e aviso prévio. Meu vínculo era empregatício, registrado em carteira, e o atraso tem prejudicado minha estabilidade financeira.",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Entendi os fatos sobre o atraso das suas verbas rescisórias. Você já tentou algum contato formal com a empresa para resolver essa questão?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:18:07.737455",
+      "loop": 8,
+      "user_simulado": "Sim, já enviei e-mails e deixei mensagens formais para o RH da empresa solicitando a regularização do pagamento, mas não obtive resposta até agora. O próximo passo seria mesmo formalizar uma ação judicial caso não haja retorno em breve. Poderiam me orientar sobre os prazos e documentos necessários para isso?",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa te auxiliar da melhor forma, poderia me detalhar um pouco mais sobre os valores devidos, o período em que o pagamento está atrasado e se você possui algum contrato de trabalho ou holerites que comprovem esses valores?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:18:37.723422",
+      "loop": 9,
+      "user_simulado": "Os valores devidos são aproximadamente R$ 8.000,00, referentes ao saldo de salário, férias proporcionais, 13º salário e aviso prévio, todos referentes ao meu contrato sob regime CLT. O pagamento está atrasado desde o mês passado, ou seja, há cerca de 30 dias. Tenho em mãos o contrato de trabalho registrado em carteira, holerites e vários e-mails e mensagens comprovando as tentativas de contato para pagamento. Gostaria de saber quais passos iniciais devo tomar para formalizar a ação judicial, e os prazos envolvidos para o ajuizamento da mesma.",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Certo, entendi que os valores devidos são aproximadamente R$ 8.000,00, referentes a saldo de salário, férias proporcionais, 13º salário e aviso prévio, e o pagamento está atrasado há cerca de 30 dias. Você possui o contrato de trabalho, holerites e e-mails/mensagens comprovando as tentativas de contato. Para prosseguirmos, você tem testemunhas que possam confirmar as tentativas de contato e o atraso no pagamento? E consegue reunir esses documentos e provas com facilidade para apresentar ao advogado?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:18:49.563271",
+      "loop": 10,
+      "user_simulado": "Sim, tenho uma colega de trabalho que estava ciente do atraso e das minhas tentativas de contato. Quanto aos documentos, consigo reunir todos eles facilmente, incluindo contrato, holerites e mensagens enviadas, para apresentar ao advogado e dar início a uma ação judicial se necessário. Poderiam me orientar sobre os próximos passos e prazos?",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Excelente! Ter uma testemunha e os documentos organizados é muito útil. Para que eu possa entender melhor, você já reuniu todos esses documentos em um só lugar ou ainda precisa organizá-los?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:19:03.530479",
+      "loop": 11,
+      "user_simulado": "Estou reunindo os documentos, mas ainda preciso organizá-los para garantir que tudo esteja completo e em ordem antes de apresentar ao advogado.",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Entendido! Organizar os documentos é um passo muito importante. Você gostaria de alguma orientação sobre quais tipos de documentos são mais relevantes para o seu caso, ou como posso te ajudar a organizá-los?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:19:16.486534",
+      "loop": 12,
+      "user_simulado": "Sim, gostaria de ajuda para saber quais documentos são imprescindíveis para anexar na inicial da ação judicial e como organizar evidências para reforçar meu caso. Também quero saber os prazos para ajuizar a ação trabalhista e se há algum cuidado especial para não perder meu direito.",
+      "gpt": {
+        "msg": "Você mencionou que as verbas rescisórias devidas somam aproximadamente R$ 8.000,00, valor inferior a R$ 1.000,00 que é o limite para qualificação de casos financeiros. Além disso, você possui e-mails, mensagens e documentos que comprovam suas tentativas de contato e os valores devidos. Considerando isso, seu caso não se enquadra para qualificação na nossa plataforma. Gostaria de saber se você tem outra dúvida ou questão jurídica que eu possa ajudar?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Compreendo sua necessidade de organizar a documentação e entender os prazos para sua ação trabalhista. Para que eu possa te auxiliar da melhor forma, poderia me contar um pouco mais sobre o seu caso? Quais são os fatos principais que levaram a essa situação?",
+        "class": "Conversando"
+      }
+    }
+  ]
+}

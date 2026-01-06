@@ -1,0 +1,30 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T09:43:25.062133",
+      "loop": 0,
+      "user_simulado": "Olá! Em que posso ajudar você hoje? Se tiver algum problema jurídico ou dúvida, por favor, informe os detalhes para que eu possa entender melhor e ajudar da melhor forma possível.",
+      "gpt": {
+        "msg": "Olá! Por favor, me conte qual é o seu problema ou dúvida jurídica para que eu possa entender melhor e ajudar você. Você pode me explicar os fatos que envolvem sua situação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para que eu possa te ajudar da melhor forma, poderia me contar um pouco mais sobre o seu caso? Quais são os principais fatos e o que você busca resolver?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T09:43:43.989663",
+      "loop": 1,
+      "user_simulado": "Olá, tenho um problema de cobrança indevida em meu cartão de crédito, no valor de R$800,00. Gostaria de saber como posso contestar essa cobrança e se há algum prazo para isso.",
+      "gpt": {
+        "msg": "Entendi que você tem uma cobrança indevida no valor de R$800,00 em seu cartão de crédito. Porém, casos financeiros com valor inferior a R$1.000,00 são desqualificados para atendimento aqui. Posso ajudar com outra dúvida jurídica que você tenha?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. No entanto, casos financeiros com valores inferiores a R$1.000,00 não se enquadram nos critérios de atuação da nossa plataforma. Portanto, seu caso é desqualificado para prosseguirmos. Há algo mais em que posso ajudar?",
+        "class": "Desqualificado"
+      }
+    }
+  ]
+}

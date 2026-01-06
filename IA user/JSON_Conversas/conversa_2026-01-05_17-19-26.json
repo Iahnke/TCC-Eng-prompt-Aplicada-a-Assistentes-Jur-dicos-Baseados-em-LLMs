@@ -1,0 +1,212 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T17:13:38.246474",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você hoje com seu problema jurídico? Por favor, me informe todos os detalhes relevantes para que eu possa entender melhor sua situação.",
+      "gpt": {
+        "msg": "Olá! Para que eu possa compreender melhor seu problema jurídico, poderia me informar quem são as partes envolvidas e o que aconteceu, detalhando em ordem cronológica? Isso vai ajudar a montar o quadro completo do seu caso. Você pode me contar também quando, onde e como os fatos ocorreram?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Entendo que você precisa de ajuda com um problema jurídico. Para que eu possa entender sua situação e coletar os fatos, poderia me dizer quem são as partes envolvidas e o que exatamente aconteceu?",
+        "class": "Solicitação de Informações Iniciais"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:13:58.563729",
+      "loop": 1,
+      "user_simulado": "Sou cliente de uma concessionária local. Em janeiro de 2024, comprei um celular que apresentou defeitos após uma semana de uso. Tentei contato com a empresa para troca ou reparo, mas eles negaram o atendimento alegando mau uso. Quero saber quais direitos tenho e como proceder para resolver essa situação.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, você possui a nota fiscal da compra e algum registro das tentativas de contato com a concessionária, como e-mails ou protocolos? Além disso, o defeito do celular foi constatado por algum técnico ou assistente autorizado? Você também tem fotos ou laudo técnico do defeito? Já tentou registrar uma reclamação formal no Procon ou outro órgão de defesa do consumidor?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a frustração com a situação. Para prosseguir, você possui a nota fiscal do celular e alguma evidência do defeito, como fotos ou um laudo técnico? Além disso, a empresa detalhou o motivo da alegação de \"mau uso\"?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:14:13.959862",
+      "loop": 2,
+      "user_simulado": "Sim, tenho a nota fiscal e fotos do defeito. Também registrei duas tentativas de contato por e-mail, mas não recebi resposta útil. Um técnico autorizado constatou o defeito, porém a concessionária insiste em alegar mau uso, dizendo que caiu na água, o que não procede. Ainda não fiz reclamação no Procon.",
+      "gpt": {
+        "msg": "Você mencionou que tem nota fiscal, fotos do defeito e laudo técnico, e que a concessionária alega mau uso sem provas concretas. A concessionária apresentou algum documento ou prova que comprove essa alegação? Além disso, você já considerou registrar uma reclamação formal no Procon para tentar resolver a situação antes de outras medidas? Sobre o seu pedido, você busca troca, reparo, reembolso ou indenização? Está aberto a tentar um acordo amigável com a concessionária antes de medidas legais?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que a concessionária insiste na alegação de mau uso. Eles te apresentaram alguma prova ou documento que sustente essa afirmação de que o celular caiu na água? E você já pensou em registrar uma reclamação no Procon para tentar uma solução?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:14:29.830639",
+      "loop": 3,
+      "user_simulado": "A concessionária não apresentou nenhum documento ou prova concreta que sustente a alegação de mau uso. Não fiz ainda a reclamação no Procon, mas pretendo fazer em breve. Busco, principalmente, o reparo do celular ou, se não for possível, a troca do aparelho. Estou aberto a tentar um acordo amigável antes de recorrer a medidas legais.",
+      "gpt": {
+        "msg": "Você mencionou que tem fotos, nota fiscal e laudo do técnico, além de possíveis testemunhas. Esses documentos e provas estão organizados e prontos para serem apresentados? Além disso, o técnico autorizado indicou se o defeito é de fabricação ou decorrente de mau uso? Você já formalizou sua solicitação por escrito para a concessionária? E qual prazo você tem em mente para resolver essa situação antes de buscar outras medidas?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa entender melhor os fatos, poderia me informar quando e onde o celular foi adquirido?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:14:51.676839",
+      "loop": 4,
+      "user_simulado": "O celular foi adquirido em 10 de janeiro de 2024, em uma concessionária local da minha cidade. Tenho todos os documentos organizados, incluindo fotos do defeito, a nota fiscal e o laudo do técnico, que indicou que o defeito é de fabricação. Já enviei uma solicitação formal por escrito à concessionária pedindo o reparo ou a troca do aparelho. Pretendo aguardar até o final deste mês para uma resposta antes de tomar medidas legais.",
+      "gpt": {
+        "msg": "Você chegou a registrar algum protocolo ou número de atendimento ao enviar a solicitação formal à concessionária? Além disso, houve alguma resposta, mesmo que negativa, dentro desse período? A concessionária respondeu alguma coisa ao seu pedido formal? Você tem interesse em tentar uma mediação antes de partir para o Procon ou ação judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Para que eu possa realizar a classificação GEM e gerar uma mensagem adequada, preciso de mais informações. Você recebeu um protocolo de atendimento ao enviar a solicitação formal? E qual foi o defeito específico de fabricação apontado no laudo técnico?",
+        "class": "Aguardando_Informacoes"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:15:13.761211",
+      "loop": 5,
+      "user_simulado": "Sim, recebi um protocolo de atendimento quando enviei a solicitação formal para a concessionária. Eles não responderam dentro do prazo e não apresentaram nenhuma solução ou justificativa válida até agora. O laudo técnico aponta que o defeito específico do celular é um problema na placa mãe, causado por falha de fabricação, e não por mau uso. Estou aberto a tentar uma mediação antes de registrar reclamação no Procon ou partir para ação judicial.",
+      "gpt": {
+        "msg": "Você já verificou se a concessionária possui um canal oficial para mediação de conflitos? Além disso, você tem interesse em um acordo que envolva ressarcimento financeiro, caso o reparo ou troca do aparelho não seja possível? Poderia também informar se tem preferência por algum tipo de acordo, como reparo imediato ou troca do aparelho?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:15:32.102492",
+      "loop": 6,
+      "user_simulado": "Eu ainda não verifiquei se a concessionária possui um canal oficial para mediação de conflitos, mas pretendo verificar isso em breve. Tenho interesse em um acordo que envolva ressarcimento financeiro caso o reparo ou troca não seja possível. Minha preferência é pelo reparo imediato do aparelho, mas aceito a troca caso o reparo não seja viável. Podemos prosseguir com a análise do caso.",
+      "gpt": {
+        "msg": "Você mencionou preferência pelo reparo imediato do aparelho, com possibilidade de troca ou ressarcimento financeiro. Para entender melhor seu caso: você já consultou algum advogado ou escritório especializado para avaliar honorários e custos? Além disso, tem uma estimativa do valor do aparelho? Também gostaria de saber se você já tentou contato por telefone ou redes sociais com a concessionária para acelerar a resposta e se o aparelho ainda está na garantia oficial do fabricante? Poderia me informar essas questões?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:16:01.932876",
+      "loop": 7,
+      "user_simulado": "Ainda não consultei advogado, mas pretendo fazê-lo para avaliar honorários e custos. O valor do aparelho é aproximadamente R$ 2.500,00. Já tentei contato por telefone e redes sociais com a concessionária, mas não obtive resposta. O aparelho está na garantia oficial do fabricante. Podemos sim prosseguir com a análise do caso.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, preciso saber: Quando exatamente você começou a tentar contato com a concessionária? Você recebeu algum protocolo ou número de atendimento? O aparelho apresenta algum defeito específico que justifique o reparo? Além disso, você já levou o aparelho para avaliação técnica em alguma assistência autorizada? Você possui o termo de garantia e a nota fiscal do aparelho? E tem registros escritos, como e-mails ou mensagens, que comprovem as tentativas de contato com a concessionária?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:16:35.723570",
+      "loop": 8,
+      "user_simulado": "Comecei a tentar contato com a concessionária logo após o aparecimento do defeito no celular, especificamente em fevereiro de 2024. Sim, recebi um protocolo ou número de atendimento ao enviar a solicitação formal. O defeito específico é na placa mãe, conforme laudo técnico que justifica o reparo. Já levei o aparelho para avaliação técnica em uma assistência autorizada. Possuo o termo de garantia e a nota fiscal do aparelho. Tenho registros escritos, como e-mails e mensagens, que comprovam as tentativas de contato com a concessionária.",
+      "gpt": {
+        "msg": "Você já enviou alguma notificação formal por escrito à concessionária, como carta registrada ou e-mail com aviso de recebimento? O laudo técnico indica se o defeito foi causado por mau uso ou é um problema de fabricação? Além disso, você está aberto a tentar um acordo amigável ou prefere seguir diretamente com uma ação judicial? E quanto aos documentos, você tem o laudo técnico, nota fiscal, termo de garantia e os registros das tentativas de contato reunidos para análise? Poderia me informar sobre esses pontos?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:16:53.960367",
+      "loop": 9,
+      "user_simulado": "Sim, enviei uma notificação formal por e-mail com aviso de recebimento para a concessionária. O laudo técnico confirma que o defeito é um problema de fabricação, não causado por mau uso. Estou aberto a tentar um acordo amigável, preferencialmente a mediação, antes de partir para ação judicial. Tenho todos os documentos reunidos: laudo técnico, nota fiscal, termo de garantia e registros das tentativas de contato. Podemos prosseguir com a análise.",
+      "gpt": {
+        "msg": "Você mencionou que enviou uma notificação formal para a concessionária e possui um laudo técnico confirmando defeito de fabricação, além de documentos como nota fiscal e termo de garantia. A concessionária respondeu a essa notificação? Se sim, qual foi a resposta? Também gostaria de saber se houve tentativas de contato telefônico ou presencial para reforçar seu pedido, e qual tipo de acordo você considera aceitável, como conserto, troca ou reembolso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:17:13.613297",
+      "loop": 10,
+      "user_simulado": "A concessionária não respondeu à notificação formal enviada. Também fiz diversas tentativas por telefone e presencialmente, mas sem sucesso. O acordo que considero aceitável é primeiramente o conserto imediato do aparelho, mas caso não seja viável, aceito a troca por um aparelho novo ou o reembolso do valor pago.",
+      "gpt": {
+        "msg": "Obrigado pelas informações até aqui. O conserto imediato foi solicitado formalmente à concessionária? Além disso, o aparelho está dentro do prazo de garantia previsto no termo que você possui? Você tem alguma urgência para resolver essa questão, ou pode aguardar o tempo necessário para mediação e possível ação judicial? Já considerou se deseja buscar algum tipo de indenização por danos morais ou apenas a solução do problema do aparelho?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:17:36.786360",
+      "loop": 11,
+      "user_simulado": "Sim, o conserto imediato foi solicitado formalmente à concessionária na notificação que enviei por e-mail com aviso de recebimento. O aparelho está dentro do prazo de garantia conforme o termo que possuo. Não tenho urgência extrema para resolver a questão, posso aguardar o tempo necessário para mediação e, se necessário, ação judicial. Por enquanto, não desejo buscar indenização por danos morais, apenas quero a solução do problema do aparelho, seja por conserto, troca ou reembolso.",
+      "gpt": {
+        "msg": "Obrigado pelas informações até agora. Para continuar, poderia me informar se você tem em mãos o contrato de compra, o termo de garantia, a nota fiscal ou algum comprovante de pagamento do aparelho? Além disso, já possui algum orçamento ou laudo técnico que comprove o defeito? Isso ajudará a entender melhor o seu caso. Poderia me informar esses detalhes?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:17:58.451234",
+      "loop": 12,
+      "user_simulado": "Sim, tenho em mãos o termo de garantia, a nota fiscal do aparelho e o contrato de compra. Também possuo o laudo técnico detalhado que comprova o defeito na placa mãe e um orçamento para o reparo do aparelho. Estou pronto para prosseguir com a análise do caso e buscar uma solução amigável, preferencialmente por mediação, antes de qualquer ação judicial.",
+      "gpt": {
+        "msg": "Você mencionou que possui todos os documentos importantes e está pronto para mediação. A concessionária já respondeu formalmente ao seu pedido? Caso tenha respondido, qual foi a posição deles? Além disso, você está aberto a aceitar uma proposta de mediação para resolver o problema?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:18:23.229815",
+      "loop": 13,
+      "user_simulado": "A concessionária não respondeu formalmente ao meu pedido. Estou totalmente aberto a aceitar uma proposta de mediação para resolver o problema de forma amigável, buscando o conserto imediato, troca ou reembolso do aparelho defeituoso.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, você poderia me informar se possui alguma documentação ou registro dos contatos feitos com a concessionária, como protocolos, mensagens ou notificações formais? Além disso, o aparelho está dentro do prazo de garantia? Qual das opções - conserto, troca ou reembolso - você considera prioritária para resolver a situação? O aparelho foi utilizado após o defeito ser identificado ou está parado desde então?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:18:44.232891",
+      "loop": 14,
+      "user_simulado": "Sim, possuo protocolos de atendimento, notificações formais enviadas por e-mail com aviso de recebimento e mensagens guardadas. O aparelho está dentro do prazo de garantia. Prioritariamente, prefiro o conserto imediato, mas aceito troca ou reembolso se o conserto não for possível. O aparelho está parado desde a identificação do defeito, não foi utilizado após isso.",
+      "gpt": {
+        "msg": "Você mencionou que possui protocolos, notificações e mensagens guardadas, e que o aparelho está dentro da garantia. A concessionária deu algum prazo para resposta após suas notificações? E o defeito foi constatado por técnico ou laudo? Além disso, qual das opções você prioriza: conserto imediato, troca ou reembolso? O aparelho está parado desde a identificação do defeito, correto?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:19:06.415070",
+      "loop": 15,
+      "user_simulado": "Sim, a concessionária foi notificada para responder em até 15 dias, prazo que já expirou sem retorno. O defeito foi constatado por laudo técnico detalhado e orçamento para conserto. Prioritariamente, desejo o conserto imediato, mas aceito troca ou reembolso caso não seja viável. O aparelho está parado desde a identificação do defeito, não o utilizei após isso.",
+      "gpt": {
+        "msg": "Obrigado pelas informações até agora. Para entender melhor o seu caso, você poderia me informar qual é o modelo e o valor aproximado do aparelho? Além disso, houve alguma tentativa de contato presencial ou por telefone após o prazo de 15 dias expirado? Você também guardou todas as notas fiscais e comprovantes de compra? O aparelho apresenta algum dano físico além do defeito técnico?",
+        "class": "Solicitação de informações adicionais"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Defeito de fabricação em celular e falta de resposta da concessionária.\n- *Resumo do caso*: O cliente adquiriu um celular novo que apresentou defeito de fabricação (problema na placa mãe) dentro do período de garantia. A concessionária não respondeu à solicitação formal dentro do prazo e não apresentou solução. O cliente possui protocolo de atendimento e laudo técnico comprovando o defeito. Ele busca uma solução, considerando mediação antes de acionar o Procon ou a justiça. Podemos prosseguir com a análise do seu caso?",
+        "class": "Qualificado"
+      }
+    }
+  ]
+}

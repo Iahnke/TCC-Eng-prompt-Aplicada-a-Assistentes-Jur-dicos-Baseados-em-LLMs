@@ -1,0 +1,95 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:31:40.347852",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você com seu problema jurídico hoje? Por favor, me dê mais detalhes sobre o seu caso para que eu possa entender melhor a situação.",
+      "gpt": {
+        "msg": "Olá! Para que eu possa entender melhor seu problema jurídico, você poderia me contar quem são as partes envolvidas, o que aconteceu, quando e onde os fatos ocorreram? Além disso, você já possui algum documento ou prova relacionada a essa situação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para que eu possa te ajudar da melhor forma, por favor, me conte em detalhes o que aconteceu. Quais são os fatos relevantes do seu caso?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:32:01.226483",
+      "loop": 1,
+      "user_simulado": "Eu sou o cliente. Meu problema envolve uma disputa com o vizinho sobre a propriedade de um terreno. Aconteceu em março de 2023, na minha cidade. Temos documentos do registro do imóvel, mas ele alega que uma parte pertence a ele. Preciso de ajuda para resolver essa questão.",
+      "gpt": {
+        "msg": "Para entender melhor o seu caso, poderia informar qual é a área total do terreno em disputa e qual parte seu vizinho alega ser dele? Além disso, os documentos que você possui indicam claramente os limites da sua propriedade? Você tem fotos, vídeos, mapas ou testemunhas que possam ajudar a comprovar a posse do terreno? Já houve algum conflito direto entre vocês desde março de 2023?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo. O que exatamente levou seu vizinho a fazer essa alegação em março de 2023? Houve alguma ação específica dele, como a construção de algo ou a colocação de uma cerca, que iniciou a disputa?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:32:18.983902",
+      "loop": 2,
+      "user_simulado": "O terreno tem cerca de 1.000 metros quadrados, e a parte em disputa é aproximadamente 200 metros quadrados. Meus documentos indicam claramente os limites da minha propriedade. Tenho mapas e fotos antigas que mostram os limites, além de testemunhas da vizinhança que confirmam minha posse. Desde março de 2023, houve alguns conflitos, como discussões e tentativas do vizinho de cercar a parte que ele alega ser dele. Em março de 2023, ele começou a construir um muro nessa área, o que levou à disputa aberta.",
+      "gpt": {
+        "msg": "Você já notificou seu vizinho por escrito para parar a construção do muro? Além disso, os documentos como mapas e fotos estão organizados e as testemunhas estão dispostas a depor, se necessário? Estou aqui para entender melhor todos os detalhes do seu caso.",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi os fatos sobre a disputa do terreno. Você mencionou que tem documentos, mapas, fotos e testemunhas. Qual é o seu pedido ou o que você gostaria de resolver com essa situação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:32:32.785514",
+      "loop": 3,
+      "user_simulado": "Ainda não notifiquei meu vizinho por escrito para interromper a construção do muro. Meus documentos, mapas e fotos estão organizados, e as testemunhas estão dispostas a depor. Meu pedido é que eu tenha a propriedade reconhecida oficialmente sobre a área de 200 metros quadrados que está em disputa e que a construção do muro seja interrompida imediatamente.",
+      "gpt": {
+        "msg": "Você mencionou que seus documentos, mapas e fotos estão organizados e que as testemunhas estão dispostas a depor, o que é ótimo para fortalecer seu caso. Você sabe se o seu vizinho possui algum documento que justifique a alegação dele sobre essa área? Além disso, você pretende solicitar uma medida liminar para interromper a construção do muro enquanto o caso está sendo resolvido? Também gostaria de saber se você já tentou conversar pessoalmente com o vizinho para informar sobre seu pedido e se está aberto a uma possível mediação antes de partir para uma ação judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi que você ainda não notificou seu vizinho por escrito, mas já tem seus documentos, mapas e fotos organizados, além de testemunhas dispostas a depor. Seu pedido é o reconhecimento oficial da propriedade sobre a área de 200 metros quadrados em disputa e a interrupção imediata da construção do muro. Você possui mais algum material probatório que gostaria de adicionar para análise?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:32:48.488610",
+      "loop": 4,
+      "user_simulado": "Até onde sei, meu vizinho não apresentou nenhum documento formal que justifique a alegação dele sobre essa área. Pretendo sim solicitar uma medida liminar para interromper a construção do muro enquanto o caso está sendo resolvido. Ainda não conversei pessoalmente com ele de forma formal e estou aberto à mediação antes de entrar com uma ação judicial. Não possuo outros materiais probatórios além dos documentos, mapas, fotos e testemunhas já mencionados.",
+      "gpt": {
+        "msg": "Você já consultou algum profissional, como engenheiro ou topógrafo, para avaliar tecnicamente os limites do seu terreno? E há quanto tempo você é o proprietário registrado desse terreno? Além disso, já foi registrado algum boletim de ocorrência ou reclamação formal sobre esse conflito com seu vizinho? Qual seria o prazo ideal para resolver essa disputa, considerando a urgência da construção do muro?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Titulo do caso*: Disputa de propriedade e construção de muro.\n- *Valor do caso*: Não especificado, mas relacionado a propriedade.\n- *Resumo do caso*: O cliente está em disputa com um vizinho sobre a construção de um muro em uma área que o vizinho alega ser dele, sem apresentar documentos formais. O cliente possui documentos, mapas, fotos e testemunhas como material probatório e pretende solicitar uma medida liminar para interromper a construção. Ele está aberto à mediação. Gostaria de saber se há mais algum detalhe que você gostaria de adicionar sobre o histórico da propriedade ou sobre as interações com o seu vizinho?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:33:14.001377",
+      "loop": 5,
+      "user_simulado": "Sim, consultei um topógrafo que confirmou os limites conforme meus documentos. Sou o proprietário registrado há mais de 10 anos deste terreno. Ainda não registrei boletim de ocorrência ou reclamação formal. Gostaria que a disputa fosse resolvida o mais rápido possível, idealmente em até 30 dias, considerando a urgência da construção do muro. Quanto ao histórico, o terreno é de herança familiar e nunca houve contestação formal antes dessa situação. Quanto às interações, tivemos apenas discussões informais com o vizinho, sem agressões ou violência.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, preciso confirmar: você possui a escritura e a matrícula atualizada do terreno? Além disso, já formalizou alguma notificação extrajudicial ao vizinho ou recebeu alguma contestação formal dele? Você tem interesse em tentar uma mediação rápida para resolver a disputa antes de partir para a via judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Titulo do caso*: Disputa de propriedade e construção de muro.\n- *Valor do caso*: Não especificado, mas relacionado a propriedade.\n- *Resumo do caso*: O cliente está em disputa com um vizinho sobre a construção de um muro em uma área que o vizinho alega ser dele, sem apresentar documentos formais. O cliente possui documentos, mapas, fotos e testemunhas como material probatório e pretende solicitar uma medida liminar para interromper a construção. Ele está aberto à mediação. Gostaria de saber se há mais algum detalhe que você gostaria de adicionar sobre o histórico da propriedade ou sobre as interações com o seu vizinho?",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:33:41.669828",
+      "loop": 6,
+      "user_simulado": "Possuo a escritura e a matrícula atualizada do terreno. Ainda não formalizei notificação extrajudicial ao vizinho, nem recebi contestação formal dele. Tenho interesse em tentar uma mediação rápida para resolver a disputa antes de partir para a via judicial.",
+      "gpt": {
+        "msg": "Você possui a escritura e matrícula atualizada do terreno, ainda não notificou formalmente o vizinho, mas tem interesse em mediação rápida para resolver a disputa sobre o muro. Além disso, possui documentação e está considerando a notificação extrajudicial. Tem fotos ou testemunhas que comprovem a situação? Gostaria de ajuda para preparar a notificação extrajudicial ou para conduzir a mediação?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Titulo do caso*: Disputa de propriedade e construção de muro.\n- *Valor do caso*: Não especificado, mas relacionado a propriedade.\n- *Resumo do caso*: O cliente está em disputa com um vizinho sobre a construção de um muro em uma área que o vizinho alega ser dele, sem apresentar documentos formais. O cliente possui documentos, mapas, fotos e testemunhas como material probatório e pretende solicitar uma medida liminar para interromper a construção. Ele está aberto à mediação. Gostaria de saber se há mais algum detalhe que você gostaria de adicionar sobre o histórico da propriedade ou sobre as interações com o seu vizinho?",
+        "class": "Qualificado"
+      }
+    }
+  ]
+}

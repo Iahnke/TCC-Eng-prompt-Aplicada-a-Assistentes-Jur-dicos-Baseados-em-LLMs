@@ -1,0 +1,173 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:52:53.987035",
+      "loop": 0,
+      "user_simulado": "Olá! Em que posso ajudar você com seu problema jurídico? Por favor, informe os detalhes para que eu possa entender melhor a situação.",
+      "gpt": {
+        "msg": "Para que eu possa ajudar da melhor forma, por favor, me conte qual é o problema jurídico que você está enfrentando e desde quando isso acontece? Você já possui algum documento ou prova relacionada a essa situação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo. Para começarmos, qual é o problema jurídico que você está enfrentando? E quem são as partes envolvidas nesta situação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:53:15.901426",
+      "loop": 1,
+      "user_simulado": "Estou enfrentando um problema de atraso no pagamento do meu salário pela empresa onde trabalho. Isso está acontecendo há cerca de 3 meses. Tenho comprovantes dos contracheques e mensagens trocadas com o departamento de RH confirmando o atraso.",
+      "gpt": {
+        "msg": "Você poderia informar o nome da empresa e seu cargo? Além disso, houve alguma justificativa da empresa para esses atrasos? Você já tentou formalizar uma reclamação por escrito à empresa ou ao sindicato? Está buscando apenas o pagamento dos salários atrasados ou também quer uma compensação pelos transtornos?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação. Para que eu possa entender melhor, qual é o nome da empresa e seu cargo? Poderia detalhar as datas exatas em que os pagamentos deveriam ter sido feitos e quando foram, se foram?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:53:43.378670",
+      "loop": 2,
+      "user_simulado": "A empresa se chama Tech Solutions e meu cargo é analista de sistemas. Os pagamentos deveriam ocorrer todo dia 5 de cada mês, mas nos últimos três meses foram pagos entre 10 e 15 dias depois, sem nenhuma justificativa formal. Já enviei e-mails para o RH cobrando resposta e alertei meu sindicato, mas ainda não houve solução. Quero o pagamento imediato dos salários atrasados e uma compensação pelos transtornos causados.",
+      "gpt": {
+        "msg": "Você mencionou que alertou o sindicato. Eles já se manifestaram oficialmente sobre o caso? Além disso, você sabe se outros colegas também estão enfrentando atrasos no pagamento? Também gostaria de saber se você já consultou um advogado ou pretende buscar orientação jurídica? E tem interesse em tentar uma mediação antes de partir para uma ação judicial?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Agradeço por compartilhar essas informações sobre os materiais probatórios. É importante termos tudo documentado para fortalecer o seu caso. Você já reuniu esses documentos ou ainda precisará de um tempo para organizá-los?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:54:08.503084",
+      "loop": 3,
+      "user_simulado": "O sindicato ainda não se manifestou oficialmente, mas outros colegas também estão enfrentando atrasos semelhantes. Ainda não consultei um advogado, mas pretendo buscar orientação jurídica em breve. Tenho interesse em tentar uma mediação antes de iniciar uma ação judicial. Já reuni todos os documentos, incluindo contracheques e mensagens de e-mail, para fortalecer o caso.",
+      "gpt": {
+        "msg": "Você já enviou e-mails para o RH e possui documentos que comprovem essas tentativas? Além disso, há testemunhas que possam confirmar os atrasos e os impactos causados? Poderia detalhar um pouco mais sobre esses documentos e possíveis testemunhas?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo que você já reuniu os documentos. Para entender melhor a situação, poderia me dizer quando os atrasos nos pagamentos começaram e com que frequência eles ocorrem?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:54:27.559022",
+      "loop": 4,
+      "user_simulado": "Sim, enviei diversos e-mails para o RH cobrando o pagamento e tenho cópias desses e-mails, além das mensagens de texto trocadas com o departamento. Quanto às testemunhas, alguns colegas também sofrem com os atrasos e podem confirmar a situação. Os atrasos começaram há três meses e ocorrem todos os meses, com pagamentos atrasados entre 10 e 15 dias.",
+      "gpt": {
+        "msg": "Você mencionou que tem registros e testemunhas sobre os atrasos nos pagamentos. Esses atrasos causaram algum prejuízo financeiro, como multas, juros ou dificuldades para pagar contas essenciais? Além disso, você já tentou outras formas de resolver diretamente com a empresa, como reuniões ou telefonemas? E seus colegas que também sofrem com os atrasos, têm interesse em participar de uma mediação conjunta?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi que você tem os registros e testemunhas. Para avançarmos, você já tentou alguma outra forma de contato com a empresa, como reuniões ou ligações? E seus colegas também têm interesse em participar de uma mediação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:54:47.712238",
+      "loop": 5,
+      "user_simulado": "Sim, os atrasos causaram dificuldades para pagar contas essenciais e multas de atraso em alguns boletos. Já tentei ligar algumas vezes, mas sem sucesso para resolver o problema. Meus colegas também têm interesse sim em participar de uma mediação conjunta para buscar uma solução.",
+      "gpt": {
+        "msg": "Você mencionou dificuldades com atrasos e interesse em mediação conjunta. Para entender melhor e ajudar da forma mais adequada, você já organizou os documentos que comprovam esses atrasos? Além disso, já definiram um representante ou porta-voz entre os colegas para a mediação? Qual seria o seu principal objetivo com essa mediação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendi que os atrasos salariais têm gerado dificuldades financeiras e que seus colegas também estão interessados em uma mediação. Qual seria o resultado ideal que você e seus colegas esperam alcançar com essa mediação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:55:06.253299",
+      "loop": 6,
+      "user_simulado": "Sim, já organizei todos os documentos que comprovam os atrasos, como contracheques, e-mails e mensagens de texto. Ainda não definimos um representante formal, mas estamos discutindo quem poderia ser o porta-voz para a mediação. Nosso principal objetivo é garantir o pagamento imediato dos salários atrasados, a regularização dos pagamentos para que não ocorram mais atrasos, e uma compensação justa pelos transtornos financeiros e emocionais causados por essa situação.",
+      "gpt": {
+        "msg": "Vocês têm um valor estimado para a compensação pelos transtornos ou preferem que isso seja avaliado na mediação? Além disso, os atrasos nos salários são frequentes ou ocorreram em um período específico? E quanto à regularização dos pagamentos futuros, já discutiram alguma proposta concreta para evitar novos atrasos?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Atraso no pagamento de salários e compensação por danos;\n- *Resumo do caso*: O cliente busca o pagamento imediato de salários atrasados, a regularização dos pagamentos futuros e uma compensação justa pelos transtornos financeiros e emocionais. Possui como material probatório contracheques, e-mails e mensagens de texto que comprovam os atrasos.",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:55:25.155221",
+      "loop": 7,
+      "user_simulado": "Preferimos que o valor da compensação pelos transtornos seja avaliado na mediação para que seja justo e adequado. Os atrasos são frequentes, acontecendo mensalmente nos últimos três meses. Ainda não discutimos uma proposta concreta para evitar novos atrasos, mas durante a mediação gostaríamos de definir um acordo para a regularização dos pagamentos futuros e garantir que isso não se repita.",
+      "gpt": {
+        "msg": "Os atrasos nos pagamentos ocorreram em quantos meses no total? Houve alguma justificativa oficial do empregador para esses atrasos frequentes? Além disso, já foi enviada alguma notificação formal à empresa, como carta ou e-mail, sobre esses atrasos? Vocês estão abertos a um acordo extrajudicial para resolver essa questão de forma mais rápida?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Atraso no pagamento de salários e compensação por danos;\n- *Resumo do caso*: O cliente busca o pagamento imediato de salários atrasados, a regularização dos pagamentos futuros e uma compensação justa pelos transtornos financeiros e emocionais. Possui como material probatório contracheques, e-mails e mensagens de texto que comprovam os atrasos.",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:55:47.002121",
+      "loop": 8,
+      "user_simulado": "Os atrasos ocorreram nos últimos três meses consecutivos. Não recebemos nenhuma justificativa oficial do empregador até o momento. Enviamos diversas notificações por e-mail, cobrando o pagamento, mas não obtivemos resposta satisfatória. Estamos abertos sim a um acordo extrajudicial para resolver essa questão de forma mais rápida e eficaz.",
+      "gpt": {
+        "msg": "Para entender melhor o seu caso, vocês têm os registros dos e-mails enviados como notificações, como cópias ou capturas de tela? Além disso, existem testemunhas, como colegas ou superiores, que possam confirmar os atrasos e a falta de resposta do empregador? Poderia me informar também o valor total dos salários atrasados até agora?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Atraso no pagamento de salários e compensação por danos;\n- *Resumo do caso*: O cliente busca o pagamento imediato de salários atrasados, a regularização dos pagamentos futuros e uma compensação justa pelos transtornos financeiros e emocionais. Possui como material probatório contracheques, e-mails e mensagens de texto que comprovam os atrasos.",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:56:04.919303",
+      "loop": 9,
+      "user_simulado": "Sim, temos todas as cópias dos e-mails enviados como notificações e capturas de tela. Também contamos com testemunhas, incluindo colegas que podem confirmar os atrasos constantes e a falta de resposta da empresa. O valor total dos salários atrasados até o momento é de R$ 4.500,00.",
+      "gpt": {
+        "msg": "Os R$ 4.500,00 correspondem exatamente aos três meses de atraso? Além disso, houve alguma conversa informal ou proposta de pagamento por parte do empregador? Vocês já tentaram algum contato formal, como uma notificação extrajudicial, para pressionar o empregador? Qual seria a expectativa de vocês em um acordo extrajudicial: receber o valor total, parcelado ou algum outro tipo de compensação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Atraso no pagamento de salários e compensação por danos;\n- *Resumo do caso*: O cliente busca o pagamento imediato de salários atrasados, a regularização dos pagamentos futuros e uma compensação justa pelos transtornos financeiros e emocionais. Possui como material probatório contracheques, e-mails e mensagens de texto que comprovam os atrasos.",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:56:19.426876",
+      "loop": 10,
+      "user_simulado": "Sim, os R$ 4.500,00 correspondem exatamente aos três meses de salários atrasados. Não houve nenhuma conversa informal ou proposta de pagamento por parte do empregador até o momento. Enviamos notificações formais por e-mail, mas ainda não uma notificação extrajudicial. Nossa expectativa em um acordo extrajudicial é receber o valor total dos salários atrasados o mais rápido possível, além de garantir a regularização dos pagamentos futuros e uma compensação justa pelos danos causados.",
+      "gpt": {
+        "msg": "Vocês mencionaram os salários atrasados e a expectativa de acordo extrajudicial. Para entender melhor, vocês têm registro formal do contrato de trabalho, como carteira assinada ou contrato escrito? Além disso, os colegas testemunhas estão dispostos a prestar depoimento formal, se necessário? E já houve alguma tentativa de registrar a situação em órgãos trabalhistas, como sindicato ou Ministério do Trabalho? Vocês têm interesse em incluir cláusulas específicas no acordo, como multas por novos atrasos?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Atraso no pagamento de salários e compensação por danos;\n- *Resumo do caso*: O cliente busca o pagamento imediato de salários atrasados, a regularização dos pagamentos futuros e uma compensação justa pelos transtornos financeiros e emocionais. Possui como material probatório contracheques, e-mails e mensagens de texto que comprovam os atrasos.",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:56:33.025519",
+      "loop": 11,
+      "user_simulado": "Sim, temos registro formal do contrato de trabalho com carteira assinada. As testemunhas, incluindo colegas de trabalho, estão dispostas a prestar depoimento formal, se necessário. Ainda não registramos a situação em órgãos trabalhistas, mas estamos dispostos a fazê-lo se for recomendado. Quanto ao acordo, temos interesse em incluir cláusulas para multas por novos atrasos para garantir os pagamentos futuros em dia.",
+      "gpt": {
+        "msg": "Vocês já têm um prazo em mente para o pagamento dos salários atrasados? E qual seria a compensação justa que esperam pelos danos causados? Além disso, possuem documentos que comprovem os prejuízos decorrentes dos atrasos? Qual seria o prazo ideal para o pagamento no acordo que desejam incluir?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Atraso no pagamento de salários e compensação por danos;\n- *Resumo do caso*: O cliente busca o pagamento imediato de salários atrasados, a regularização dos pagamentos futuros e uma compensação justa pelos transtornos financeiros e emocionais. Possui como material probatório contracheques, e-mails e mensagens de texto que comprovam os atrasos.",
+        "class": "Qualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:56:52.343232",
+      "loop": 12,
+      "user_simulado": "Nosso prazo ideal para pagamento dos salários atrasados é no máximo em 30 dias. Esperamos uma compensação justa que leve em conta os transtornos financeiros e emocionais causados, sugerindo uma quantia equivalente a pelo menos um salário mensal adicional como indenização. Temos documentos que comprovam os prejuízos, como comprovantes de contas atrasadas e despesas extras decorrentes dos atrasos. No acordo, gostaríamos de incluir um prazo de 10 dias para o pagamento de salários futuros e multas por novos atrasos para proteger nossos direitos.",
+      "gpt": {
+        "msg": "Pelo que foi informado, vocês têm um caso de salários atrasados com pedido de compensação financeira e prazo para pagamentos futuros, com documentos e testemunhas que comprovam os atrasos e prejuízos. Isso configura um caso trabalhista com provas e pedidos claros. Gostariam de prosseguir com a análise jurídica detalhada ou têm mais informações para acrescentar?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi qualificado, segue o resumo:\n- *Título do caso*: Atraso no pagamento de salários e compensação por danos;\n- *Resumo do caso*: O cliente busca o pagamento imediato de salários atrasados, a regularização dos pagamentos futuros e uma compensação justa pelos transtornos financeiros e emocionais. Possui como material probatório contracheques, e-mails e mensagens de texto que comprovam os atrasos.",
+        "class": "Qualificado"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:12:16.705004",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você com seu problema jurídico hoje? Por favor, me conte os detalhes para que eu possa entender e orientar melhor.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, poderia me informar quem são as partes envolvidas e qual foi o principal acontecimento que gerou essa situação? Além disso, qual é a situação jurídica que você está enfrentando e qual resultado ideal espera obter com nossa ajuda?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para que eu possa entender melhor seu caso, poderia me contar os fatos e o que aconteceu? Assim consigo te ajudar da melhor forma.",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:12:28.551008",
+      "loop": 1,
+      "user_simulado": "Sou o cliente. O problema envolve minha compra online com uma loja, onde paguei 850 reais por um produto que nunca foi entregue. Já tentei contato e não obtive resposta. Quero receber o produto ou o reembolso do valor pago, que é menor que mil reais.",
+      "gpt": {
+        "msg": "Para entender melhor seu caso, poderia me informar quando você realizou a compra e a data das tentativas de contato com a loja? Além disso, você possui comprovantes de pagamento e das tentativas de contato? Você já recebeu alguma resposta formal da loja, mesmo que negativa?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado, segue o resumo:\n- *Título do caso*: Compra online não entregue\n- *Valor do caso*: R$ 850,00\n- *Resumo do caso*: O cliente realizou uma compra online no valor de R$ 850,00, mas o produto nunca foi entregue e o contato com a loja não obteve resposta. O cliente busca o recebimento do produto ou o reembolso do valor pago. Casos financeiros com valor inferior a R$1.000,00 não são qualificados em nossa plataforma. Há algo mais em que posso ajudar?",
+        "class": "Desqualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:12:41.928400",
+      "loop": 2,
+      "user_simulado": "Comprei o produto no dia 10 de maio e tentei contato várias vezes desde 15 de maio, sem sucesso. Tenho comprovantes de pagamento e prints das tentativas de contato, mas não recebi nenhuma resposta da loja. Gostaria de saber quais são os meus próximos passos para receber o reembolso ou o produto, considerando que o valor é inferior a mil reais.",
+      "gpt": {
+        "msg": "Pelo que você informou, o valor do produto é inferior a R$1.000,00, o que desqualifica o caso para ação judicial aqui. Você já registrou alguma reclamação formal, como no Procon ou em plataformas de defesa do consumidor? Gostaria de tentar um acordo direto com a loja antes de buscar outras soluções?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado, segue o resumo:\n- *Título do caso*: Compra online não entregue\n- *Valor do caso*: R$ 850,00\n- *Resumo do caso*: O cliente realizou uma compra online no valor de R$ 850,00, mas o produto nunca foi entregue e o contato com a loja não obteve resposta. O cliente busca o recebimento do produto ou o reembolso do valor pago. Casos financeiros com valor inferior a R$1.000,00 não são qualificados em nossa plataforma. Há algo mais em que posso ajudar?",
+        "class": "Desqualificado"
+      }
+    }
+  ]
+}

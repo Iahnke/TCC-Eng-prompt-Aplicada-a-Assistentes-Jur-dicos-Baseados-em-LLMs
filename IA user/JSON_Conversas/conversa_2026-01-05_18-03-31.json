@@ -1,0 +1,69 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T18:01:58.554703",
+      "loop": 0,
+      "user_simulado": "Olá! Como posso ajudar você hoje com seu problema jurídico? Pode me contar um pouco mais sobre a sua situação?",
+      "gpt": {
+        "msg": "Olá! Para que eu possa ajudar da melhor forma, você pode me contar quem são as partes envolvidas no seu caso e o que exatamente aconteceu, em ordem cronológica? Além disso, qual é o problema jurídico que você está enfrentando e qual resultado espera alcançar?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Sou a Juliana, assistente jurídica virtual da Processar Online. Para que eu possa te ajudar da melhor forma, pode me contar um pouco mais sobre a sua situação ou se você prefere continuar de onde paramos?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:02:24.490443",
+      "loop": 1,
+      "user_simulado": "Olá, Juliana. Sou cliente em um problema de cobrança indevida. Eu contratei um serviço de internet fibra óptica que deveria custar R$150,00 mensais, mas recebi uma fatura de R$1.200,00 este mês, sem qualquer justificativa. Já tentei contato com a empresa, mas não obtive solução. Eu quero contestar essa cobrança e conseguir um reembolso, se possível, além de garantir que não me cobrem valores abusivos futuramente.",
+      "gpt": {
+        "msg": "Juliana, para entender melhor seu caso, preciso saber: você tem algum documento, como contrato ou comprovante, que mostre o valor mensal acordado de R$150,00? Além disso, essa cobrança alta de R$1.200,00 apareceu só neste mês ou em outras faturas também? Você já fez alguma reclamação formal por escrito, como e-mail ou protocolo? E, por fim, tem prints, e-mails ou outras provas das tentativas de contato com a empresa? Poderia me informar sobre isso?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Compreendo a sua situação, Juliana. Para seguirmos, como foram exatamente esses contatos com a empresa? Você possui os números de protocolo ou as datas dessas tentativas de resolução?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:02:41.033639",
+      "loop": 2,
+      "user_simulado": "Sim, eu tenho o contrato que prova o valor mensal de R$150,00. Essa cobrança de R$1.200,00 apareceu apenas neste mês. Fiz reclamações formais por e-mail e tenho os protocolos de atendimento com as datas das tentativas, além de print das conversas pelo site da empresa. Posso fornecer todos esses documentos para ajudar no processo.",
+      "gpt": {
+        "msg": "Você mencionou que possui o contrato e documentos que comprovam a cobrança mensal correta e as tentativas de reclamação. Gostaria de saber se você já registrou reclamação em órgãos de defesa do consumidor, como o Procon? Além disso, sabe se a empresa possui alguma cláusula no contrato que justifique essa cobrança de R$1.200,00? E você já solicitou formalmente o estorno desse valor? Está disposta a buscar uma solução judicial caso não haja acordo? Por favor, me conte mais sobre essas questões.",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Entendido, Juliana. Você possui a fatura ou extrato bancário que mostre essa cobrança de R$1.200,00? E a empresa te deu alguma explicação, mesmo que informal, sobre o motivo desse valor?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:03:11.185791",
+      "loop": 3,
+      "user_simulado": "Sim, já registrei reclamação no Procon e aguardo retorno. No contrato, não há nenhuma cláusula que justifique esse valor abusivo. Já solicitei formalmente o estorno pelo atendimento da empresa, mas até agora não obtive resposta. Estou disposta sim a levar a questão judicialmente se não houver acordo. Tenho a fatura e o extrato bancário que mostram a cobrança de R$1.200,00. A empresa não me deu explicação clara ou formal sobre o motivo desse valor.",
+      "gpt": {
+        "msg": "Juliana, pelo que você relatou, temos um caso de cobrança abusiva de R$1.200,00, com provas documentais como fatura e extrato bancário, além de tentativas formais de contato e reclamação no Procon. Isso configura um caso qualificado para análise jurídica. Você já possui todos esses documentos organizados para enviar ao advogado? E gostaria de tentar uma mediação antes de partir para a ação judicial?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Entendido, Juliana. Já registrei que você fez uma reclamação no Procon, solicitou o estorno formalmente e possui a fatura e o extrato bancário comprovando a cobrança de R$1.200,00, além de não haver cláusula contratual que justifique o valor. Para darmos o próximo passo, você já verificou se outras pessoas tiveram problemas semelhantes com essa empresa? E qual seria o resultado que você considera justo para resolver essa situação?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T18:03:26.568532",
+      "loop": 4,
+      "user_simulado": "Sim, já organizei todos os documentos que comprova minha reclamação (contrato, fatura, extrato e protocolos). Ainda não tentei uma mediação e gostaria de saber como funciona para tentarmos resolver antes do processo. Também pesquisei e encontrei outras pessoas com problemas semelhantes com essa empresa. Para mim, o resultado justo seria o cancelamento da cobrança de R$1.200,00, o reembolso desse valor e uma garantia para que não ocorra mais cobranças abusivas no futuro.",
+      "gpt": {
+        "msg": "Juliana, pelo que você relatou, temos um caso de cobrança abusiva de R$1.200,00, com provas documentais como fatura e extrato bancário, além de tentativas formais de contato e reclamação no Procon. Isso configura um caso qualificado para análise jurídica. Você já possui todos esses documentos organizados para enviar ao advogado? E gostaria de tentar uma mediação antes de partir para a ação judicial?",
+        "class": "Qualificado"
+      },
+      "gemini": {
+        "msg": "Entendi perfeitamente o seu caso. Você busca o cancelamento de uma cobrança de R$1.200,00, o reembolso desse valor e uma garantia contra futuras cobranças abusivas, e já possui documentos como contrato, fatura, extrato e protocolos para comprovar sua reclamação. Você também mencionou que outras pessoas tiveram problemas semelhantes com a empresa. Gostaria de saber se há mais algum detalhe que você considere importante adicionar ou se podemos seguir com a análise para entender as próximas etapas?",
+        "class": "Qualificado"
+      }
+    }
+  ]
+}

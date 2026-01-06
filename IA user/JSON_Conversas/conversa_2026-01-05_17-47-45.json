@@ -1,0 +1,43 @@
+{
+  "historico": [
+    {
+      "timestamp": "2026-01-05T17:45:19.331086",
+      "loop": 0,
+      "user_simulado": "Olá! Em que posso ajudar você hoje? Você tem algum problema jurídico para discutirmos? Por favor, me forneça detalhes como o tipo de problema, valores envolvidos, e qualquer outra informação relevante.",
+      "gpt": {
+        "msg": "Olá! Para que eu possa ajudar, qual é o problema jurídico que você está enfrentando? E qual o valor envolvido nessa situação?",
+        "class": "Conversando"
+      },
+      "gemini": {
+        "msg": "Olá! Para que eu possa entender melhor, poderia me contar um pouco mais sobre o que aconteceu? Qual é a sua principal preocupação neste momento?",
+        "class": "Conversando"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:45:34.396704",
+      "loop": 1,
+      "user_simulado": "Olá, estou enfrentando um problema com um contrato de prestação de serviços que não foi cumprido pelo fornecedor. O valor envolvido é de aproximadamente 800 reais. Minha principal preocupação é recuperar esse valor e garantir que o fornecedor seja responsabilizado pelo contrato.",
+      "gpt": {
+        "msg": "Entendi, você tem um contrato de prestação de serviços no valor aproximado de R$800 que não foi cumprido pelo fornecedor, e deseja recuperar esse valor e responsabilizar o fornecedor. Para entender melhor o seu caso, poderia me informar quais serviços deveriam ser prestados segundo o contrato e o que exatamente não foi cumprido pelo fornecedor? Além disso, você já tentou resolver essa questão diretamente com ele?",
+        "class": "Solicitação de orientação jurídica"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado devido ao valor envolvido ser inferior a R$1.000,00. Segue o resumo: - *Título do caso*: Contrato de prestação de serviços não cumprido; - *Valor do caso*: R$800,00; - *Resumo do caso*: O cliente teve um contrato de prestação de serviços não cumprido pelo fornecedor, buscando recuperar o valor de R$800,00 e responsabilizar o fornecedor. Há algo mais em que posso ajudar?",
+        "class": "Desqualificado"
+      }
+    },
+    {
+      "timestamp": "2026-01-05T17:47:34.075814",
+      "loop": 0,
+      "user_simulado": "Olá! Entendi que você está tentando recuperar R$800 de um contrato de prestação de serviços não cumprido pelo fornecedor. Para ajudar melhor, poderia me informar quais serviços o fornecedor deveria ter prestado, e o que exatamente foi deixado de ser cumprido? Você já tentou contato com ele para resolver essa questão amigavelmente? Assim posso orientar os próximos passos para a solução do seu problema.",
+      "gpt": {
+        "msg": "Pelo que foi informado, o valor em questão é de R$800,00, referente a um contrato de prestação de serviços não cumprido pelo fornecedor. Como o valor é inferior a R$1.000,00, infelizmente o caso não se enquadra nos critérios para qualificação jurídica nesta plataforma. Posso ajudar em mais alguma dúvida ou questão jurídica que você tenha?",
+        "class": "Desqualificado"
+      },
+      "gemini": {
+        "msg": "O caso foi desqualificado devido ao valor envolvido ser inferior a R$1.000,00. Segue o resumo: - *Título do caso*: Contrato de prestação de serviços não cumprido; - *Valor do caso*: R$800,00; - *Resumo do caso*: O cliente teve um contrato de prestação de serviços não cumprido pelo fornecedor, buscando recuperar o valor de R$800,00 e responsabilizar o fornecedor. Há algo mais em que posso ajudar?",
+        "class": "Desqualificado"
+      }
+    }
+  ]
+}
